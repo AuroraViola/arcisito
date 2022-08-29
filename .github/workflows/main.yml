@@ -10,12 +10,14 @@ on:
 
 jobs:
   page_build:
-    container: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: Build
       run: |
-        apk update
-        apk install python3 py3-pip git
+        sudo apt update
+        sudo apt install software-properties-common
+        sudo add-apt-repository ppa:deadsnakes/ppa
+        sudo apt install python3.10 python3-pip git
         pip3 install lxml
         git clone --depth 1 https://gitlab.com/octtspacc/staticoso
         python3 ./staticoso/Source/Build.py
