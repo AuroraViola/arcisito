@@ -14,8 +14,8 @@ jobs:
     steps:
     - name: Build
       run: |
-        apk update
-        apk add python3 py3-pip git
+        apt update
+        apt install python3 py3-pip git
         pip3 install lxml
         git clone --depth 1 https://gitlab.com/octtspacc/staticoso
         python3 ./staticoso/Source/Build.py
