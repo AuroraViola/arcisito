@@ -20,7 +20,7 @@ jobs:
         sudo apt install python3.10 python3-pip git
         pip3 install lxml
         git clone --depth 1 https://gitlab.com/octtspacc/staticoso
-        python3 ./staticoso/Source/Build.py
+        python3.10 ./staticoso/Source/Build.py
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
       with:
