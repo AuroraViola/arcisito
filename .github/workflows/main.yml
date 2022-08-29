@@ -20,6 +20,6 @@ jobs:
         git clone --depth 1 https://gitlab.com/octtspacc/staticoso
         python3 ./staticoso/Source/Build.py
     - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: public
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        folder: public
