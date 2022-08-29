@@ -17,3 +17,7 @@ A volte mi piace anche fare qualche render, soprattutto con Blender, giusto perc
 ## Licenze
 
 Ogni immagine e articolo che si trova su questo sito è sotto licenza CC BY-SA 4.0. Una licenza libera che promuove la condivisione. I contenuti che non appartengono a me saranno segnati alla fine di ogni articolo insieme alla fonte.
+
+## Ringraziamenti
+
+* [Octo](https://mastodon.uno/@octo) per aver dato l'idea e per il [sitoctt](https://gitlab.com/octtspacc/sitoctt) che praticamente il template di questo sito.
