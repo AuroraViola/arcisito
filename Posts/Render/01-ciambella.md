@@ -6,6 +6,6 @@
 
 # Ciambella
 
-![Ciambella con un caffè dietro]([staticoso:Site:RelativeRoot]Assets/Render/donut_final.png)
+![Ciambella con un caffè dietro]([staticoso:Site:RelativeRoot]Assets/Render/Donut_final.png)
 
 Questo é il mio primo modello realizzato con Blender. La maggior parte delle persone inizia proprio da questa semplice ciambella.
