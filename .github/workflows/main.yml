@@ -8,6 +8,7 @@ on:
 
   workflow_dispatch:
 
+jobs:
   page_build:
     runs-on: alpine:latest
     steps:
