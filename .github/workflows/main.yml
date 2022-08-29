@@ -1,4 +1,4 @@
-name: CI
+name: Build and deploy with staticoso
 
 on:
   push:
@@ -10,13 +10,16 @@ on:
 
 jobs:
   page_build:
-    runs-on: alpine:latest
+    runs-on: alpine-latest
     steps:
-    - run: apk update
-    - run: apk add python3 py3-pip git
-    - run: pip3 install lxml
-    - run: git clone --depth 1 https://gitlab.com/octtspacc/staticoso
-    - run: python3 ./staticoso/Source/Build.py
-    artifacts:
-      paths:
-      - public
+    - name: Build
+      run: |
+        apk update
+        apk add python3 py3-pip git
+        pip3 install lxml
+        git clone --depth 1 https://gitlab.com/octtspacc/staticoso
+        python3 ./staticoso/Source/Build.py
+    - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: public
