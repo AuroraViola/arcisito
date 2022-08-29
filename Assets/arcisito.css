@@ -1,0 +1,424 @@
+/*--------------------------------------------------------*
+ *    Costanti Globali                                    *
+ *--------------------------------------------------------*/
+
+:Root {
+	--ScreenBorderPadding: 4px;
+	--ContentPadding: 8px;
+}
+
+/*--------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------*
+ *    Fritto Misto - Andrebbe ordinato                    *
+ *--------------------------------------------------------*/
+
+::Selection {
+	Background-Color: RGBA(170, 170, 255, 0.2);
+}
+Body {
+	Margin: 0;
+	Box-Sizing: Border-Box;
+	Width: 100%;
+	Max-Width: 100%;
+	Position: Absolute;
+	Left: Auto;
+	Right: Auto;
+	Color: #080810;
+	Background: #eeddff;
+	Font-Size: 13pt;
+	Padding: Var(--ContentPadding);
+	Overflow-Wrap: Break-Word;
+}
+Div {
+	Box-Sizing: Border-Box;
+}
+Details Div {
+	Margin: 8px;
+	Padding: 4px;
+}
+.BorderBox,
+.BorderBoxContainer > *,
+Details Div Details {
+	Border: 2px Solid Purple;
+	Margin: 8px;
+	Padding: 4px;
+}
+Summary > H1, Summary > H2, Summary > H3, Summary > H4, Summary > H5, Summary > H6 {
+	Display: Inline;
+}
+
+.NoDisplay {
+	Display: None;
+}
+.NoCol {
+	Color: Transparent !Important;
+}
+A {
+	Color: #D000D0;
+}
+H1, H2, H3, H4, H5, H6 {
+	Color: #503080;
+}
+Ul {
+	Padding-Left: 16px;
+	Padding-Right: 4px;
+}
+Table Td, Table Th, Table Tr  {
+	Border: 2px Solid Purple;
+	Padding: 4px;
+}
+
+.ScrollBox, .ScrollBorderBox {
+	Padding: 8px;
+}
+.Code, Code:Not(.NoCode), Pre Code:Not(.NoCode), Pre.Code, .CodeScroll {
+	Color: #FAFAF0;
+	Background: #300030;
+}
+.ScrollBox, .ScrollBorderBox, .CodeScroll {
+	Overflow-X: Auto;
+}
+.ScrollBorderBox, .CodeScroll {
+	Border: 2px Solid Purple;
+}
+Pre.Code, .CodeScroll {
+	Padding-Left: 8px;
+	Padding-Right: 8px;
+	Padding-Top: 0px;
+	Padding-Bottom: 16px;
+}
+
+#MainBox A:not(
+	.NoLinkLink, .NoLinkLink A,
+	.SectionLink A,
+	#StatCounter A,
+	#RingsDiv A
+)::Before {
+	Content: '🔗 ';
+}
+
+.SectionLink {
+	Position: Absolute;
+	Left: -1.5em;
+	Opacity: 0.1;
+}
+.SectionLink:Target,
+.SectionLink:Hover {
+	Opacity: 0.8;
+}
+.SectionLink > A::Before {
+	Content: '🔗';
+}
+.SectionLink > A > Span {
+	Font-Size: 0;
+}
+
+A:Hover:Not(
+	H3 > A, H4 > A, H5 > A, H6 > A,
+	.NoABigger, .NoABigger A,
+	.NoHoverLight, .NoHoverLight A
+) {
+	Color: #EEDDFF !Important;
+	Background: #700070 !Important;
+}
+
+.ImgShiftedH, .ImgShiftedH Img {
+	Margin-Top: 4px;
+	Margin-Bottom: -4px;
+}
+
+#RingsDiv Img,
+.CCIcons > Img, .CCIcon {
+	Display: Inline !Important;
+	Max-Height: 1em !Important;
+	Vertical-Align: Sub;
+}
+.CCIcons > Img, .CCIcon {
+	Margin-Left: 3px;
+}
+
+Details > Summary:hover {
+	Font-Size: 15pt;
+}
+H1:hover {
+	Font-Size: 28pt;
+}
+H2:hover {
+	Font-Size: 21.5pt;
+}
+H3:hover {
+	Font-Size: 17.5pt;
+}
+
+.Inline {
+	Display: Inline;
+}
+#Container {
+	Max-Width: 100%;
+}
+#LeftBox, #RightBox {
+	Max-Width: 90vw;
+	Color: #fafaf0;
+	Background: #300030;
+}
+#LeftBox A, #RightBox A, #BottomBox A {
+	Color: #eeddff;
+}
+#LeftBox Ul Li, #RightBox Ul Li {
+	List-Style-Type: None;
+}
+#TopBox {
+	Width: 100%;
+	Padding: Var(--ContentPadding);
+}
+.HeaderElement {
+	Border: 2px Solid Purple;
+	Padding: 0px 8px 8px 8px;
+}
+#TopBox h1, #TopBox h2, #TopBox h3, #TopBox h4, #TopBox h5, #TopBox h6,
+#BottomBox h1, #BottomBox h2, #BottomBox h3, #BottomBox h4, #BottomBox h5, #BottomBox h6 {
+	Display: Inline;
+}
+#LeftBox, #LeftBoxContainer {
+	Float: Left;
+	Left: Var(--ContentPadding);
+	Padding: Var(--ContentPadding);
+}
+#RightBox, #RightBoxContainer {
+	Float: Right;
+	Right: Var(--ContentPadding);
+	Padding: Var(--ContentPadding);
+}
+#RightBox {
+	Float: Right;
+}
+#RightBoxContainer > Details > Summary {
+	Text-Align: Right;
+}
+#MainBox {
+	Margin: Auto;
+	Position: Absolute;
+	Z-Index: -1;
+	Left: 0;
+	Right: 0;
+	Width: 80%;
+	Padding-Top: Calc(Var(--ContentPadding) + 32px);
+	Padding-Bottom: Calc(Var(--ContentPadding) + 64px);
+}
+#MainBox Img,
+#MainBox Video {
+	Max-Width: 90%;
+	Max-Height: 80vh;
+}
+#MainBox Img:hover,
+#MainBox Video:hover {
+	Max-Width: 100%;
+	Max-Height: 90vh;
+}
+.Img36 Img,
+.Img36 Video {
+	Max-Height: 36vh !important;
+}
+.Img36 Img:hover,
+.Img36 Video:hover {
+	Max-Height: 64vh !important;
+}
+#MainBox p Img:not(.NoImgCenter, .NoImgCenter Img),
+#MainBox p Video:not(.NoImgCenter, .NoImgCenter Video) {
+	Display: Block;
+	Margin-Left: Auto;
+	Margin-Right: Auto;
+}
+.ImgSidePadding Img,
+.ImgSidePadding Video {
+	Padding-Left: 16px;
+	Padding-Right: 16px;
+}
+.Pixelated,
+.Pixelated Img {
+	Image-Rendering: Pixelated;
+	-ms-interpolation-mode: nearest-neighbor;
+}
+
+#MainBoxTop, #BuildTimeLine {
+	Color: #505050;
+}
+#BuildTimeLine > Span {
+	Display: Inline-Block;
+}
+#BottomBox {
+	Width: 100%;
+	Color: #fafaf0;
+	Background: RGBA(64, 0, 64, 0.6);
+	Text-Align: Right;
+	Padding: Var(--ContentPadding);
+	Z-Index: -1;
+}
+#LeftBoxContainer, #RightBoxContainer {
+	Position: Absolute;
+}
+#LeftBoxContainer, #RightBoxContainer, #BottomBoxContainer {
+	Color: #808080;
+}
+#BottomBox, #BottomBoxContainer {
+	Box-Sizing: Border-Box;
+	Position: Fixed;
+	Bottom: 0;
+	Left: 0;
+	Right: 0;
+	Width: 100%;
+}
+#BottomBoxContainer {
+	Padding: Var(--ScreenBorderPadding);
+}
+#TopBoxLeft {
+	Text-Align: Left;
+	Display: Inline-Block;
+}
+#TopBoxRight {
+	Text-Align: Right;
+	Float: Right;
+	Clear: Both;
+}
+#PrivacyPopup {
+	Display: None;
+	Visibility: Hidden;
+	Position: Fixed;
+	Z-Index: 16;
+	Color: #fafaf0;
+	Background: #300030;
+	Max-Width: 60vw;
+	Max-Height: 50vh;
+	Overflow-Y: Scroll;
+	Bottom: 64px;
+	Right: Calc(Var(--ContentPadding) * 2);
+	Padding: Var(--ContentPadding);
+	Padding-Bottom: Calc(Var(--ContentPadding) * 2);
+}
+#MainBoxGlobalFooter,
+#StatCounter,
+.Center {
+	Text-Align: Center;
+}
+#MainBoxGlobalFooter span {
+	Vertical-Align: Top;
+}
+
+#LeftBoxCheck, #LeftBoxLabel {
+	Float: Left;
+	Left: 0;
+	Margin: Var(--ScreenBorderPadding);
+}
+#RightBoxCheck, #RightBoxLabel {
+	Float: Right;
+	Right: 0;
+	Margin: Var(--ScreenBorderPadding);
+}
+#BottomBoxCheck, #BottomBoxLabel {
+	Float: Left;
+	Left: 0;
+	Margin: Var(--ScreenBorderPadding);
+}
+#LeftBoxCheck, #RightBoxCheck, #BottomBoxCheck {
+	Position: Fixed;
+	Opacity: 0;
+}
+:Checked ~ .ToggleBox {
+	Display: None;
+	Visibility: Hidden;
+}
+
+/* No selezione */
+#LeftBox,
+#LeftBoxContainer,
+#RightBox,
+#RightBoxContainer, 
+#BottomBoxCheck,
+#BottomBoxLabel {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	User-select: none;
+}
+
+/*--------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------*
+ *    Gradienti                                           *
+ *--------------------------------------------------------*/
+
+.MainIdTextGradientL {
+	Background: linear-gradient(to left, #d000d0, #8040d0);
+	Color: Transparent;
+	-webkit-background-clip: Text;
+	Background-Clip: Text;
+}
+.MainIdTextGradientR {
+	Background: linear-gradient(to right, #d000d0, #8040d0);
+	Color: Transparent;
+	-webkit-background-clip: Text;
+	Background-Clip: Text;
+}
+
+/*--------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------*
+ *    Animazioni                                          *
+ *--------------------------------------------------------*/
+
+H1, H2, H3, A, Img, Video, Summary {
+	Transition: 0.3s;
+}
+
+.BlinkA {
+	Animation: BlinkerA 0.25s Step-Start Infinite;
+}
+@keyframes BlinkerA {
+	0% {Position: Absolute; Visibility: Hidden;}
+	50% {Position: Static; Visibility: Visible;}
+	100% {Position: Absolute; Visibility: Hidden;}
+}
+.BlinkO {
+	Animation: BlinkerO 0.25s Step-Start Infinite;
+}
+@keyframes BlinkerO {
+	0% {Position: Static; Visibility: Visible;}
+	50% {Position: Absolute; Visibility: Hidden;}
+	100% {Position: Static; Visibility: Visible;}
+}
+
+/*---   Credits: https://codepen.io/jh3y/pen/WNrXqYz   ---*/
+.WavyText {
+	Text-Align: Center;
+	Position: Absolute;
+	Left: 50%;
+	White-Space: NoWrap;
+	Transform: Translate(-50%, -50%) Translate(Calc(Var(--x, 0) * 1%), Calc(Var(--y, 0) * 1%));
+	font-variation-settings: 'wght' Var(--lower);
+	Margin: 0;
+}
+.WavyText Span {
+	Color: HSLA(300, 100%, 20%, Var(--alpha-l));
+	Animation: Rise 2.25s infinite ease-in-out;
+	Animation-Delay: Calc((Var(--index) - 6) * 0.225s);
+	Display: Inline-Block;
+}
+@keyframes Rise {
+	50% {
+		font-variation-settings: 'wght' Var(--upper);
+		Color: HSLA(300, 100%, 30%, Var(--alpha-u));
+		Transform: Translate(0, -15%);
+	}
+}
+/*---   --------------------------------------------   ---*/
+
+/*--------------------------------------------------------*/
