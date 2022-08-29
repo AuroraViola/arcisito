@@ -20,7 +20,8 @@ jobs:
         sudo apt update
         sudo apt install software-properties-common
         sudo add-apt-repository ppa:deadsnakes/ppa
-        sudo apt install python3.10 pip git
+        sudo apt install python3.10 curl git
+        curl -sS https://bootstrap.pypa.io/get-pip.py | sudo python3.10
         sudo pip3 install lxml
         git clone --depth 1 https://gitlab.com/octtspacc/staticoso
         python3.10 ./staticoso/Source/Build.py
