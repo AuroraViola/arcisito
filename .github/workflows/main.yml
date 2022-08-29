@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+  workflow_dispatch:
+
+  page_build:
+    runs-on: alpine:latest
+    steps:
+    - run: apk update
+    - run: apk add python3 py3-pip git
+    - run: pip3 install lxml
+    - run: git clone --depth 1 https://gitlab.com/octtspacc/staticoso
+    - run: python3 ./staticoso/Source/Build.py
+    artifacts:
+      paths:
+      - public
