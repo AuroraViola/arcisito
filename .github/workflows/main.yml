@@ -12,13 +12,19 @@ jobs:
   page_build:
     runs-on: ubuntu-latest
     steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
     - name: Build
       run: |
         sudo apt update
-        sudo apt install python3.11 pip git
-        pip3 install lxml
+        sudo apt install software-properties-common
+        sudo add-apt-repository ppa:deadsnakes/ppa
+        sudo apt install python3.10 pip git
+        sudo pip3 install lxml
         git clone --depth 1 https://gitlab.com/octtspacc/staticoso
-        python3.11 ./staticoso/Source/Build.py
+        python3.10 ./staticoso/Source/Build.py
+
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
       with:
