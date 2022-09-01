@@ -1,75 +1,145 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Arcisito</title><link> </link><description> </description><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>it</language><lastBuildDate>Mon, 29 Aug 2022 13:25:23 +0000</lastBuildDate><item><title>La mia esperienza con i music server</title><link> </link><description>Era fine marzo di quest’anno e mi ero resa conto che copiare ogni volta la musica nuova da pc a telefono e hard disk esterno non era proprio il massim...</description><content:encoded>&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-La-mia-esperienza-con-i-music-se"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-La-mia-esperienza-con-i-music-se"&gt;La mia esperienza con i music server&lt;/span&gt;&lt;/h1&gt;
-
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Arcisito</title>
+    <link> </link>
+    <description> </description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <language>it</language>
+    <lastBuildDate>Thu, 01 Sep 2022 11:46:00 +0000</lastBuildDate>
+    <item>
+      <title>La mia esperienza con i music server</title>
+      <link> </link>
+      <description>Era fine marzo di quest’anno e mi ero resa conto che copiare ogni volta la musica nuova da pc a telefono e hard disk esterno non era proprio il massim...</description>
+      <content:encoded>&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-La-mia-esperienza-con-i-music-se"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-La-mia-esperienza-con-i-music-se"&gt;La mia esperienza con i music server&lt;/span&gt;&lt;/h1&gt;
 &lt;h2 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Perch-uso-un-music-server"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Perch-uso-un-music-server"&gt;Perché uso un music server&lt;/span&gt;&lt;/h2&gt;
-
 &lt;p&gt;Era fine marzo di quest’anno e mi ero resa conto che copiare ogni volta la musica nuova da pc a telefono e hard disk esterno non era proprio il massimo.&lt;/p&gt;
 &lt;p&gt;Allora capisco che il VPS che pagavo poteva avere uno scopo migliore oltre a quello di dare una pagina web statica (si lo usavo solo per quello) e potevo anche usarlo come music server. Ed è così che ho installato Jellyfin.&lt;/p&gt;
 &lt;h2 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Jellyfin"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Jellyfin"&gt;Jellyfin&lt;/span&gt;&lt;/h2&gt;
-
 &lt;p&gt;Installarlo è stato semplicissimo dato che esiste Docker, il problema era spostare 45GB di musica dal pc al server, rimasi sveglia fino alle 2 di notte solo per spostare dei file con SFTP perché ancora non ero pratica e in più la connessione ad internet non aiutava.&lt;/p&gt;
 &lt;p&gt;Una volta spostato tutto e ricreate le playlist ho visto che da web funzionava tutto, pure i music video ci stavano. Mancavano però i client perché sinceramente avere un browser aperto sempre su Jellyfin non è una cosa che mi sarebbe piaciuta molto. Così ho trovato Sonixd e Finamp.&lt;/p&gt;
 &lt;h2 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Sonixd-il-client-desktop"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Sonixd-il-client-desktop"&gt;Sonixd: il client desktop&lt;/span&gt;&lt;/h2&gt;
-
 &lt;p&gt;Devo dire il miglior client che si può avere su desktop, l’ho anche tradotto in italiano ed è persino meglio di Clementine per certi versi. Mai avuto nessun problema, ha tutte le feature che deve avere (tranne il download ma su un computer non ne vedo il senso).&lt;/p&gt;
 &lt;p&gt;Quando usavo Jellyfin ci stava però qualche lag nel caricare le canzoni e anche abilitando la transcodifica non sembrava cambiare molto.&lt;/p&gt;
 &lt;h2 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Finamp-il-client-Android"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Finamp-il-client-Android"&gt;Finamp: il client Android&lt;/span&gt;&lt;/h2&gt;
-
 &lt;p&gt;Come tutti i lettori musicali su Android anche Finamp è stato molto problematico. La gestione dei download che non funzionava se l’applicazione non era in primo piano, La UI che ricordava un tema Material Design vecchio e bug vari non mi facevano usare Jellyfin nel migliore dei modi.&lt;/p&gt;
 &lt;p&gt;Quando riproducevo file non scaricati laggava, esattamente come su Sonixd, e mi è salito qualche dubbio.&lt;/p&gt;
 &lt;h2 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Lo-switch-da-Jellyfin-a-Navidrom"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Lo-switch-da-Jellyfin-a-Navidrom"&gt;Lo switch da Jellyfin a Navidrome&lt;/span&gt;&lt;/h2&gt;
-
 &lt;p&gt;Decido così che per eliminare questo problema, forse avrei avuto bisogno di usare un server creato principalmente per la musica e non per vedere i film (Jellyfin è concepito per guardare film, il fatto di poter sentire musica è una feature in più).&lt;/p&gt;
 &lt;p&gt;Installo così Navidrome, che si basa su Subsonic, e noto, oltre al problema scomparso, che ci sono tantissimi client che usano Subsonic su Android e decido di provarli. Sonixd era già compatibile con Navidrome quindi non c’è stato bisogno di cambiare qui.&lt;/p&gt;
 &lt;h2 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-I-client-Subsonic-per-Android"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-I-client-Subsonic-per-Android"&gt;I client Subsonic per Android&lt;/span&gt;&lt;/h2&gt;
-
 &lt;h3 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Substreamer"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Substreamer"&gt;Substreamer&lt;/span&gt;&lt;/h3&gt;
-
 &lt;p&gt;Substreamer fu il primo che provai perché era quello più scaricato e che dagli screenshot sembrava il migliore. Aveva si una UI e una gestione dei download nettamente superiore a quella di Finamp ma laggava per fare qualunque cosa, non c’era la notifica integrata con Android ed era proprietaria. Insomma la peggiore che ci sia secondo me.&lt;/p&gt;
 &lt;h3 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Subtracks"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Subtracks"&gt;Subtracks&lt;/span&gt;&lt;/h3&gt;
-
 &lt;p&gt;Uno dei migliori client per Android è sicuramente questo. UI perfettamente fluida ed è pure Software libero. Il problema è che non si possono scaricare i brani anche se sembra che questa feature arriverà prima o poi (l’autore sta facendo un rewrite completo dell’applicazione).&lt;/p&gt;
 &lt;h3 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Symfonium"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Symfonium"&gt;Symfonium&lt;/span&gt;&lt;/h3&gt;
-
 &lt;p&gt;Dopo circa 3 settimane di uso di Subtracks, totalmente a caso trovo questa applicazione. Ha letteralmente tutto quello di cui ho bisogno, gestione dei download, Material You, temi custom e tanta altra roba che nessun’altro client aveva come Android Auto, supporto a Chromecast, l’auto-download e possibilità di usare più fonti contemporaneamente (Subsonic/Jellyfin/Plex/Emby/Locale).&lt;/p&gt;
 &lt;p&gt;Tutto perfetto finché non scopri che è un client proprietario e devi spendere poco più di 4 euro per andare oltre il periodo di prova di una settimana. Fortunatamente avevo del credito sul play store e l’ho pagata pochissimo.&lt;/p&gt;
 &lt;p&gt;Per il momento sto usando questa ma penso di ritornare a Subtracks quando sarà riscritto.&lt;/p&gt;
 &lt;h2 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Conclusioni"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Conclusioni"&gt;Conclusioni&lt;/span&gt;&lt;/h2&gt;
-
 &lt;p&gt;In pratica Navidrome è uno dei migliori server musicali che si può installare. Il problema sta nei client Android, se si vuole la migliore esperienza bisogna sborsare soldi e usare software proprietario.&lt;/p&gt;
 &lt;p&gt;Rispetto a prima è decisamente molto più comodo. Non devo più tirare fuori cavi per spostare musica da una parte all’altra, preoccuparmi di tenere aggiornate le playlist o di finire lo spazio sul telefono.&lt;/p&gt;
-&lt;p&gt;Consiglio inoltre di tenere sia Navidrome che Jellyfin come faccio io in caso abbiate anche video musicali o semplicemente voglia di vedere anche film e serie TV.&lt;/p&gt;</content:encoded><guid isPermaLink="false"> </guid><pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate></item><item><title>Isola (si che fantasia con i nomi)</title><link> </link><description>...</description><content:encoded>&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Isola-si-che-fantasia-con-i-nom"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Isola-si-che-fantasia-con-i-nom"&gt;Isola (si che fantasia con i nomi)&lt;/span&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;img alt="Isola in mezzo ad un oceano" src="../../Assets/Render/Island.png" /&gt;&lt;/p&gt;
-&lt;p&gt;Questa scena è stata più un’esercitazione per inserire il foliage e non è servita ad altro. Tra l’altro non è venuto nemmeno bene ma pazienza.&lt;/p&gt;</content:encoded><guid isPermaLink="false"> </guid><pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate></item><item><title>Welcome to Void</title><link> </link><description>  ...</description><content:encoded>&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Welcome-to-void"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Welcome-to-void"&gt;Welcome to void&lt;/span&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;img alt="Void 1" src="../../Assets/Render/Void1.jpg" /&gt;
-&lt;img alt="Void 2" src="../../Assets/Render/Void2.jpg" /&gt;
-&lt;img alt="Void 3" src="../../Assets/Render/Void3.jpg" /&gt;&lt;/p&gt;
+&lt;p&gt;Consiglio inoltre di tenere sia Navidrome che Jellyfin come faccio io in caso abbiate anche video musicali o semplicemente voglia di vedere anche film e serie TV.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false"> </guid>
+      <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Isola (si che fantasia con i nomi)</title>
+      <link> </link>
+      <description>...</description>
+      <content:encoded>&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Isola-si-che-fantasia-con-i-nom"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Isola-si-che-fantasia-con-i-nom"&gt;Isola (si che fantasia con i nomi)&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Isola in mezzo ad un oceano" src="../../Assets/Render/Island.png" title="Isola in mezzo ad un oceano"/&gt;&lt;/p&gt;
+&lt;p&gt;Questa scena è stata più un’esercitazione per inserire il foliage e non è servita ad altro. Tra l’altro non è venuto nemmeno bene ma pazienza.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false"> </guid>
+      <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Welcome to Void</title>
+      <link> </link>
+      <description>  ...</description>
+      <content:encoded>&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Welcome-to-void"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Welcome-to-void"&gt;Welcome to void&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Void 1" src="../../Assets/Render/Void1.jpg" title="Void 1"/&gt;
+&lt;img alt="Void 2" src="../../Assets/Render/Void2.jpg" title="Void 2"/&gt;
+&lt;img alt="Void 3" src="../../Assets/Render/Void3.jpg" title="Void 3"/&gt;&lt;/p&gt;
 &lt;p&gt;Ho avuto in mente di creare una stanza liminale con elementi che dessero un senso di vuoto o perdita in generale. La qualità delle immagini è stata volutamente abbassata per rendere la scena più inquietante. Inoltre nella terza foto è stata rimossa la scritta per rendere il tutto più cupo e misterioso.&lt;/p&gt;
-&lt;p&gt;È disponibile anche una &lt;a href="../../Assets/Render/Void4K.png"&gt;versione 4K del primo render&lt;/a&gt;.&lt;/p&gt;</content:encoded><guid isPermaLink="false"> </guid><pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate></item><item><title>Fratteli</title><link> </link><description>   ...</description><content:encoded>&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Frattali"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Frattali"&gt;Frattali&lt;/span&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;img alt="Frattale 1" src="../../Assets/Render/Frattale01.png" /&gt;
-&lt;img alt="Frattale 2" src="../../Assets/Render/Frattale02.png" /&gt;
-&lt;img alt="Frattale 3" src="../../Assets/Render/Frattale03.png" /&gt;
-&lt;img alt="Frattale 4" src="../../Assets/Render/Frattale04.png" /&gt;&lt;/p&gt;
-&lt;p&gt;Qualche frattale renderizzato con il nuovo motore di Blender 3.0&lt;/p&gt;</content:encoded><guid isPermaLink="false"> </guid><pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate></item><item><title>Canyon</title><link> </link><description>...</description><content:encoded>&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Canyon"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Canyon"&gt;Canyon&lt;/span&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;img alt="Canyon in stile KDE" src="../../Assets/Render/Canyon.png" /&gt;&lt;/p&gt;
-&lt;p&gt;Secondo e ultimo wallpaper che ho inviato al &lt;a href="https://forum.kde.org/viewforum.php?f=333"&gt;wallpaper contest di KDE Plasma 5.23&lt;/a&gt;.&lt;/p&gt;</content:encoded><guid isPermaLink="false"> </guid><pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate></item><item><title>Isola solitaria</title><link> </link><description>...</description><content:encoded>&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Isola-solitaria"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Isola-solitaria"&gt;Isola solitaria&lt;/span&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;img alt="Isola gialla in mezzo ad un fiume stile KDE" src="../../Assets/Render/Lonely_Island.png" /&gt;&lt;/p&gt;
-&lt;p&gt;Prima submission per il &lt;a href="https://forum.kde.org/viewforum.php?f=333"&gt;wallpaper contest di KDE Plasma 5.23&lt;/a&gt;. Anche se alla fine non é stato scelto sono comunque contenta di aver partecipato.&lt;/p&gt;</content:encoded><guid isPermaLink="false"> </guid><pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate></item><item><title>Auto low poly</title><link> </link><description>...</description><content:encoded>&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Auto-low-poly"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Auto-low-poly"&gt;Auto low poly&lt;/span&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;img alt="Automobile arancione low poly" src="../../Assets/Render/lowPolyCar.png" /&gt;&lt;/p&gt;
-&lt;p&gt;Un’auto low poly creata con Blender seguendo &lt;a href="https://youtu.be/Zkg7Ol2jEjs"&gt;questo&lt;/a&gt; tutorial.&lt;/p&gt;</content:encoded><guid isPermaLink="false"> </guid><pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate></item><item><title>Camera da letto</title><link> </link><description> ...</description><content:encoded>&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Camera-da-letto"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Camera-da-letto"&gt;Camera da letto&lt;/span&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;img alt="Camera da letto con luci accese" src="../../Assets/Render/Bedroom-1.png" /&gt;
-&lt;img alt="Camera da letto con luci spente" src="../../Assets/Render/Bedroom-2.png" /&gt;&lt;/p&gt;
-&lt;p&gt;Una rappresentazione di camera mia fatta a voxel. Uno dei primi progetti in cui ci ho messo veramente tanto impegno.&lt;/p&gt;</content:encoded><guid isPermaLink="false"> </guid><pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate></item><item><title>Pappagallo</title><link> </link><description>...</description><content:encoded>&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Pappagallo"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Pappagallo"&gt;Pappagallo&lt;/span&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;img alt="Pappagallo fatto a voxel" src="../../Assets/Render/Parrot.png" /&gt;&lt;/p&gt;
-&lt;p&gt;Un semplice pappagallo fatto su Blender dato che Goxel é abbastanza limitato e lento nel rendering&lt;/p&gt;</content:encoded><guid isPermaLink="false"> </guid><pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate></item><item><title>Casa sulla collina</title><link> </link><description>...</description><content:encoded>&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Casa-sulla-collina"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Casa-sulla-collina"&gt;Casa sulla collina&lt;/span&gt;&lt;/h1&gt;
-
-&lt;p&gt;&lt;img alt="Collina fatta a voxel con sopra una casa e un albero più a valle" src="../../Assets/Render/House_on_hill.png" /&gt;&lt;/p&gt;
-&lt;p&gt;Un secondo render fatto con Goxel. Questa volta ho usato &lt;a href="http://waifu2x.udp.jp/"&gt;waifu2x&lt;/a&gt; per rimuovere il rumore e upscalare dato che Goxel non ha un denoiser integrato.&lt;/p&gt;</content:encoded><guid isPermaLink="false"> </guid><pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate></item></channel></rss>
+&lt;p&gt;È disponibile anche una &lt;a href="../../Assets/Render/Void4K.png"&gt;versione 4K del primo render&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false"> </guid>
+      <pubDate>Sat, 02 Apr 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Fratteli</title>
+      <link> </link>
+      <description>   ...</description>
+      <content:encoded>&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Frattali"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Frattali"&gt;Frattali&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Frattale 1" src="../../Assets/Render/Frattale01.png" title="Frattale 1"/&gt;
+&lt;img alt="Frattale 2" src="../../Assets/Render/Frattale02.png" title="Frattale 2"/&gt;
+&lt;img alt="Frattale 3" src="../../Assets/Render/Frattale03.png" title="Frattale 3"/&gt;
+&lt;img alt="Frattale 4" src="../../Assets/Render/Frattale04.png" title="Frattale 4"/&gt;&lt;/p&gt;
+&lt;p&gt;Qualche frattale renderizzato con il nuovo motore di Blender 3.0&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false"> </guid>
+      <pubDate>Sun, 16 Jan 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Canyon</title>
+      <link> </link>
+      <description>...</description>
+      <content:encoded>&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Canyon"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Canyon"&gt;Canyon&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Canyon in stile KDE" src="../../Assets/Render/Canyon.png" title="Canyon in stile KDE"/&gt;&lt;/p&gt;
+&lt;p&gt;Secondo e ultimo wallpaper che ho inviato al &lt;a href="https://forum.kde.org/viewforum.php?f=333"&gt;wallpaper contest di KDE Plasma 5.23&lt;/a&gt;.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false"> </guid>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Isola solitaria</title>
+      <link> </link>
+      <description>...</description>
+      <content:encoded>&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Isola-solitaria"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Isola-solitaria"&gt;Isola solitaria&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Isola gialla in mezzo ad un fiume stile KDE" src="../../Assets/Render/Lonely_Island.png" title="Isola gialla in mezzo ad un fiume stile KDE"/&gt;&lt;/p&gt;
+&lt;p&gt;Prima submission per il &lt;a href="https://forum.kde.org/viewforum.php?f=333"&gt;wallpaper contest di KDE Plasma 5.23&lt;/a&gt;. Anche se alla fine non é stato scelto sono comunque contenta di aver partecipato.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false"> </guid>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Auto low poly</title>
+      <link> </link>
+      <description>...</description>
+      <content:encoded>&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Auto-low-poly"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Auto-low-poly"&gt;Auto low poly&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Automobile arancione low poly" src="../../Assets/Render/lowPolyCar.png" title="Automobile arancione low poly"/&gt;&lt;/p&gt;
+&lt;p&gt;Un’auto low poly creata con Blender seguendo &lt;a href="https://youtu.be/Zkg7Ol2jEjs"&gt;questo&lt;/a&gt; tutorial.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false"> </guid>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Camera da letto</title>
+      <link> </link>
+      <description> ...</description>
+      <content:encoded>&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Camera-da-letto"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Camera-da-letto"&gt;Camera da letto&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Camera da letto con luci accese" src="../../Assets/Render/Bedroom-1.png" title="Camera da letto con luci accese"/&gt;
+&lt;img alt="Camera da letto con luci spente" src="../../Assets/Render/Bedroom-2.png" title="Camera da letto con luci spente"/&gt;&lt;/p&gt;
+&lt;p&gt;Una rappresentazione di camera mia fatta a voxel. Uno dei primi progetti in cui ci ho messo veramente tanto impegno.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false"> </guid>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Pappagallo</title>
+      <link> </link>
+      <description>...</description>
+      <content:encoded>&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Pappagallo"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Pappagallo"&gt;Pappagallo&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Pappagallo fatto a voxel" src="../../Assets/Render/Parrot.png" title="Pappagallo fatto a voxel"/&gt;&lt;/p&gt;
+&lt;p&gt;Un semplice pappagallo fatto su Blender dato che Goxel é abbastanza limitato e lento nel rendering&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false"> </guid>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Casa sulla collina</title>
+      <link> </link>
+      <description>...</description>
+      <content:encoded>&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Casa-sulla-collina"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Casa-sulla-collina"&gt;Casa sulla collina&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Collina fatta a voxel con sopra una casa e un albero più a valle" src="../../Assets/Render/House_on_hill.png" title="Collina fatta a voxel con sopra una casa e un albero più a valle"/&gt;&lt;/p&gt;
+&lt;p&gt;Un secondo render fatto con Goxel. Questa volta ho usato &lt;a href="http://waifu2x.udp.jp/"&gt;waifu2x&lt;/a&gt; per rimuovere il rumore e upscalare dato che Goxel non ha un denoiser integrato.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false"> </guid>
+      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
