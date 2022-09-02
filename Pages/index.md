@@ -20,4 +20,4 @@ Ogni immagine e articolo che si trova su questo sito è sotto licenza CC BY-SA 4
 
 ## Ringraziamenti
 
-* [Octo](https://mastodon.uno/@octo) per aver dato l'idea e per il [sitoctt](https://gitlab.com/octtspacc/sitoctt) che praticamente il template di questo sito.
+* [Octo](https://mastodon.uno/@octo) per aver dato l'idea e per il [sitoctt](https://gitlab.com/octtspacc/sitoctt) che è praticamente il template di questo sito.
