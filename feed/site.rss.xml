@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>it</language>
-    <lastBuildDate>Thu, 01 Sep 2022 11:46:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Sep 2022 15:13:56 +0000</lastBuildDate>
     <item>
       <title>📓️ Blog</title>
       <link> </link>
@@ -33,6 +33,13 @@
       <link> </link>
       <description>Questo è il mio sito dove pubblicherò esperienze e avventure che avrò riguardo ciò che mi piace. Non per forza ci sarà un topic preciso....</description>
       <guid isPermaLink="false"> </guid>
+    </item>
+    <item>
+      <title>Aggiornamenti del sito</title>
+      <link> </link>
+      <description>Sono passati esattamente due mesi da quando ho scritto l'ultimo articolo, dato che sono stata in vacanza e occuparmi di questo sito è l'ultimo dei mie...</description>
+      <guid isPermaLink="false"> </guid>
+      <pubDate>Fri, 02 Sep 2022 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>La mia esperienza con i music server</title>

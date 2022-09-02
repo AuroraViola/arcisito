@@ -2,10 +2,25 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="it">
   <id> </id>
   <title>Arcisito</title>
-  <updated>2022-09-01T11:46:00.976637+00:00</updated>
+  <updated>2022-09-02T15:13:56.789952+00:00</updated>
   <link href=" " rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <subtitle> </subtitle>
+  <entry>
+    <id> </id>
+    <title>Aggiornamenti del sito</title>
+    <updated>2022-09-02T00:00:00+00:00</updated>
+    <content type="html">&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Aggiornamenti-del-sito"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Aggiornamenti-del-sito"&gt;Aggiornamenti del sito&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;Sono passati esattamente due mesi da quando ho scritto l'ultimo articolo, dato che sono stata in vacanza e occuparmi di questo sito è l'ultimo dei miei problemi. Tuttavia ultimamente, non avendo nulla da fare, ho ricreato il sito quasi da zero grazie a &lt;a href="https://gitlab.com/octtspacc/staticoso"&gt;staticoso&lt;/a&gt; e al template ottenuto dal &lt;a href="https://gitlab.com/octtspacc/sitoctt"&gt;sitoctt&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Perch-tutto-ci"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Perch-tutto-ci"&gt;Perché tutto ciò?&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Come si vedeva quasi chiaramente, prima usavo Wordpress (selfhostato) con il tema di default. Il tutto sopra un VPS che non ha firewall e va offline quasi a random, infatti per questi motivi ho deciso di spostare tutto quanto da li. Ho comprato un Raspberry Pi 4 da 4GB in modo da poter tenere tutto quanto sotto controllo dentro casa. Pure il server Jellyfin e Navidrome sono stati spostati li sopra.&lt;/p&gt;
+&lt;p&gt;Tuttavia il server Wordpress non ho voluto metterlo li perché il raspino sarebbe quasi sicuramente morto e ho deciso di eliminarlo completamente. Ora il sito è hostato su Github Pages sotto un nuovo look e la repo è disponibile &lt;a href="https://github.com/AuroraViola/arcisito"&gt;qui&lt;/a&gt; così non devo preoccuparmi che il sito vada offline o che devo pagare il VPS (Anzi penso che non lo pagherò più). Inoltre chiunque potrà vedere le modifiche che farò nel tempo al sito grazie a Github.&lt;/p&gt;
+&lt;h2 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Riguardo-al-nuovo-look-e-futuri-"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Riguardo-al-nuovo-look-e-futuri-"&gt;Riguardo al nuovo look e futuri articoli&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Ovviamente il sito non avrà questo look per sempre. Cambierò al più presto la grafica in modo che non sia una copia del &lt;a href="https://sitoctt.octt.eu.org/"&gt;sitoctt&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Per quanto riguarda nuovi articoli non ho una data per quando rilasciarli (li devo ancora scrivere), quindi potrebbero uscire da un momento l'altro.&lt;/p&gt;</content>
+    <link href=" " rel="alternate"/>
+    <published>2022-09-02T00:00:00+00:00</published>
+  </entry>
   <entry>
     <id> </id>
     <title>La mia esperienza con i music server</title>
@@ -126,16 +141,6 @@
     <content type="html">&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Pappagallo"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Pappagallo"&gt;Pappagallo&lt;/span&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="Pappagallo fatto a voxel" src="../../Assets/Render/Parrot.png" title="Pappagallo fatto a voxel"/&gt;&lt;/p&gt;
 &lt;p&gt;Un semplice pappagallo fatto su Blender dato che Goxel é abbastanza limitato e lento nel rendering&lt;/p&gt;</content>
-    <link href=" " rel="alternate"/>
-    <published>2021-09-27T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id> </id>
-    <title>Casa sulla collina</title>
-    <updated>2021-09-27T00:00:00+00:00</updated>
-    <content type="html">&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Casa-sulla-collina"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Casa-sulla-collina"&gt;Casa sulla collina&lt;/span&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;img alt="Collina fatta a voxel con sopra una casa e un albero più a valle" src="../../Assets/Render/House_on_hill.png" title="Collina fatta a voxel con sopra una casa e un albero più a valle"/&gt;&lt;/p&gt;
-&lt;p&gt;Un secondo render fatto con Goxel. Questa volta ho usato &lt;a href="http://waifu2x.udp.jp/"&gt;waifu2x&lt;/a&gt; per rimuovere il rumore e upscalare dato che Goxel non ha un denoiser integrato.&lt;/p&gt;</content>
     <link href=" " rel="alternate"/>
     <published>2021-09-27T00:00:00+00:00</published>
   </entry>

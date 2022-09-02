@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="it">
   <id> </id>
   <title>Arcisito</title>
-  <updated>2022-09-01T11:46:00.966119+00:00</updated>
+  <updated>2022-09-02T15:13:56.779338+00:00</updated>
   <link href=" " rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <subtitle> </subtitle>
@@ -40,6 +40,14 @@
     <updated>1970-01-01T00:00:00+00:00</updated>
     <content>Questo è il mio sito dove pubblicherò esperienze e avventure che avrò riguardo ciò che mi piace. Non per forza ci sarà un topic preciso....</content>
     <link href=" " rel="alternate"/>
+  </entry>
+  <entry>
+    <id> </id>
+    <title>Aggiornamenti del sito</title>
+    <updated>2022-09-02T00:00:00+00:00</updated>
+    <content>Sono passati esattamente due mesi da quando ho scritto l'ultimo articolo, dato che sono stata in vacanza e occuparmi di questo sito è l'ultimo dei mie...</content>
+    <link href=" " rel="alternate"/>
+    <published>2022-09-02T00:00:00+00:00</published>
   </entry>
   <entry>
     <id> </id>
