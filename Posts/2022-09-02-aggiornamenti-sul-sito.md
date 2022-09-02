@@ -1,10 +1,10 @@
-// % Title: Aggiornamenti del sito
-// % HTMLTitle: Aggiornamenti del sito
+// % Title: Aggiornamenti sul sito
+// % HTMLTitle: Aggiornamenti sul sito
 // % Categories: Blog Server
 // % CreatedOn: 2022-09-02
 // % EditedOn: 2022-09-02
 
-# Aggiornamenti del sito
+# Aggiornamenti sul sito
 
 Sono passati esattamente due mesi da quando ho scritto l'ultimo articolo, dato che sono stata in vacanza e occuparmi di questo sito è l'ultimo dei miei problemi. Tuttavia ultimamente, non avendo nulla da fare, ho ricreato il sito quasi da zero grazie a [staticoso](https://gitlab.com/octtspacc/staticoso) e al template ottenuto dal [sitoctt](https://gitlab.com/octtspacc/sitoctt).
 
