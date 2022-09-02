@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="it">
   <id> </id>
   <title>Arcisito</title>
-  <updated>2022-09-02T15:13:56.779338+00:00</updated>
+  <updated>2022-09-02T15:18:28.219461+00:00</updated>
   <link href=" " rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <subtitle> </subtitle>
@@ -43,7 +43,7 @@
   </entry>
   <entry>
     <id> </id>
-    <title>Aggiornamenti del sito</title>
+    <title>Aggiornamenti sul sito</title>
     <updated>2022-09-02T00:00:00+00:00</updated>
     <content>Sono passati esattamente due mesi da quando ho scritto l'ultimo articolo, dato che sono stata in vacanza e occuparmi di questo sito è l'ultimo dei mie...</content>
     <link href=" " rel="alternate"/>

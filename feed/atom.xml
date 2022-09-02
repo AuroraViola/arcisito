@@ -2,15 +2,15 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="it">
   <id> </id>
   <title>Arcisito</title>
-  <updated>2022-09-02T15:13:56.789952+00:00</updated>
+  <updated>2022-09-02T15:18:28.231172+00:00</updated>
   <link href=" " rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <subtitle> </subtitle>
   <entry>
     <id> </id>
-    <title>Aggiornamenti del sito</title>
+    <title>Aggiornamenti sul sito</title>
     <updated>2022-09-02T00:00:00+00:00</updated>
-    <content type="html">&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Aggiornamenti-del-sito"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Aggiornamenti-del-sito"&gt;Aggiornamenti del sito&lt;/span&gt;&lt;/h1&gt;
+    <content type="html">&lt;h1 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Aggiornamenti-sul-sito"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Aggiornamenti-sul-sito"&gt;Aggiornamenti sul sito&lt;/span&gt;&lt;/h1&gt;
 &lt;p&gt;Sono passati esattamente due mesi da quando ho scritto l'ultimo articolo, dato che sono stata in vacanza e occuparmi di questo sito è l'ultimo dei miei problemi. Tuttavia ultimamente, non avendo nulla da fare, ho ricreato il sito quasi da zero grazie a &lt;a href="https://gitlab.com/octtspacc/staticoso"&gt;staticoso&lt;/a&gt; e al template ottenuto dal &lt;a href="https://gitlab.com/octtspacc/sitoctt"&gt;sitoctt&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 class="SectionHeading"&gt;&lt;span class="SectionLink"&gt;&lt;a href="#-Perch-tutto-ci"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle" id="-Perch-tutto-ci"&gt;Perché tutto ciò?&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;Come si vedeva quasi chiaramente, prima usavo Wordpress (selfhostato) con il tema di default. Il tutto sopra un VPS che non ha firewall e va offline quasi a random, infatti per questi motivi ho deciso di spostare tutto quanto da li. Ho comprato un Raspberry Pi 4 da 4GB in modo da poter tenere tutto quanto sotto controllo dentro casa. Pure il server Jellyfin e Navidrome sono stati spostati li sopra.&lt;/p&gt;
