@@ -6,8 +6,8 @@
     <description> </description>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
-    <language>it</language>
-    <lastBuildDate>Fri, 02 Sep 2022 15:18:28 +0000</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Sun, 15 Jan 2023 20:01:22 +0000</lastBuildDate>
     <item>
       <title>📓️ Blog</title>
       <link> </link>
@@ -51,7 +51,7 @@
     <item>
       <title>Isola (si che fantasia con i nomi)</title>
       <link> </link>
-      <description>...</description>
+      <description>Questa scena è stata più un’esercitazione per inserire il foliage e non è servita ad altro. Tra l’altro non è venuto nemmeno bene ma pazienza....</description>
       <guid isPermaLink="false"> </guid>
       <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
     </item>
@@ -72,21 +72,21 @@
     <item>
       <title>Canyon</title>
       <link> </link>
-      <description>...</description>
+      <description>Secondo e ultimo wallpaper che ho inviato al wallpaper contest di KDE Plasma 5.23....</description>
       <guid isPermaLink="false"> </guid>
       <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Isola solitaria</title>
       <link> </link>
-      <description>...</description>
+      <description>Prima submission per il wallpaper contest di KDE Plasma 5.23. Anche se alla fine non é stato scelto sono comunque contenta di aver partecipato....</description>
       <guid isPermaLink="false"> </guid>
       <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Auto low poly</title>
       <link> </link>
-      <description>...</description>
+      <description>Un’auto low poly creata con Blender seguendo questo tutorial....</description>
       <guid isPermaLink="false"> </guid>
       <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
     </item>
@@ -100,14 +100,14 @@
     <item>
       <title>Pappagallo</title>
       <link> </link>
-      <description>...</description>
+      <description>Un semplice pappagallo fatto su Blender dato che Goxel é abbastanza limitato e lento nel rendering...</description>
       <guid isPermaLink="false"> </guid>
       <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Casa sulla collina</title>
       <link> </link>
-      <description>...</description>
+      <description>Un secondo render fatto con Goxel. Questa volta ho usato waifu2x per rimuovere il rumore e upscalare dato che Goxel non ha un denoiser integrato....</description>
       <guid isPermaLink="false"> </guid>
       <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
     </item>
@@ -121,21 +121,21 @@
     <item>
       <title>Terra</title>
       <link> </link>
-      <description>...</description>
+      <description>Un mio tentativo di creare la terra in low poly. La luna sembra tipo una pallina di carta stropicciata ma comunque alla fine non é male....</description>
       <guid isPermaLink="false"> </guid>
       <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Blocchi</title>
       <link> </link>
-      <description>...</description>
+      <description>Dei semplici sblocchi spezzati illuminati da una luce....</description>
       <guid isPermaLink="false"> </guid>
       <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Ciambella</title>
       <link> </link>
-      <description>...</description>
+      <description>Questo é il mio primo modello realizzato con Blender. La maggior parte delle persone inizia proprio da questa semplice ciambella....</description>
       <guid isPermaLink="false"> </guid>
       <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
     </item>

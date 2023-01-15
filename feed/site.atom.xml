@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="it">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id> </id>
   <title>Arcisito</title>
-  <updated>2022-09-02T15:18:28.219461+00:00</updated>
+  <updated>2023-01-15T20:01:22.493209+00:00</updated>
   <link href=" " rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <subtitle> </subtitle>
@@ -61,7 +61,7 @@
     <id> </id>
     <title>Isola (si che fantasia con i nomi)</title>
     <updated>2022-07-31T00:00:00+00:00</updated>
-    <content>...</content>
+    <content>Questa scena è stata più un’esercitazione per inserire il foliage e non è servita ad altro. Tra l’altro non è venuto nemmeno bene ma pazienza....</content>
     <link href=" " rel="alternate"/>
     <published>2022-07-31T00:00:00+00:00</published>
   </entry>
@@ -85,7 +85,7 @@
     <id> </id>
     <title>Canyon</title>
     <updated>2021-09-27T00:00:00+00:00</updated>
-    <content>...</content>
+    <content>Secondo e ultimo wallpaper che ho inviato al wallpaper contest di KDE Plasma 5.23....</content>
     <link href=" " rel="alternate"/>
     <published>2021-09-27T00:00:00+00:00</published>
   </entry>
@@ -93,7 +93,7 @@
     <id> </id>
     <title>Isola solitaria</title>
     <updated>2021-09-27T00:00:00+00:00</updated>
-    <content>...</content>
+    <content>Prima submission per il wallpaper contest di KDE Plasma 5.23. Anche se alla fine non é stato scelto sono comunque contenta di aver partecipato....</content>
     <link href=" " rel="alternate"/>
     <published>2021-09-27T00:00:00+00:00</published>
   </entry>
@@ -101,7 +101,7 @@
     <id> </id>
     <title>Auto low poly</title>
     <updated>2021-09-27T00:00:00+00:00</updated>
-    <content>...</content>
+    <content>Un’auto low poly creata con Blender seguendo questo tutorial....</content>
     <link href=" " rel="alternate"/>
     <published>2021-09-27T00:00:00+00:00</published>
   </entry>
@@ -117,7 +117,7 @@
     <id> </id>
     <title>Pappagallo</title>
     <updated>2021-09-27T00:00:00+00:00</updated>
-    <content>...</content>
+    <content>Un semplice pappagallo fatto su Blender dato che Goxel é abbastanza limitato e lento nel rendering...</content>
     <link href=" " rel="alternate"/>
     <published>2021-09-27T00:00:00+00:00</published>
   </entry>
@@ -125,7 +125,7 @@
     <id> </id>
     <title>Casa sulla collina</title>
     <updated>2021-09-27T00:00:00+00:00</updated>
-    <content>...</content>
+    <content>Un secondo render fatto con Goxel. Questa volta ho usato waifu2x per rimuovere il rumore e upscalare dato che Goxel non ha un denoiser integrato....</content>
     <link href=" " rel="alternate"/>
     <published>2021-09-27T00:00:00+00:00</published>
   </entry>
@@ -141,7 +141,7 @@
     <id> </id>
     <title>Terra</title>
     <updated>2021-09-27T00:00:00+00:00</updated>
-    <content>...</content>
+    <content>Un mio tentativo di creare la terra in low poly. La luna sembra tipo una pallina di carta stropicciata ma comunque alla fine non é male....</content>
     <link href=" " rel="alternate"/>
     <published>2021-09-27T00:00:00+00:00</published>
   </entry>
@@ -149,7 +149,7 @@
     <id> </id>
     <title>Blocchi</title>
     <updated>2021-09-27T00:00:00+00:00</updated>
-    <content>...</content>
+    <content>Dei semplici sblocchi spezzati illuminati da una luce....</content>
     <link href=" " rel="alternate"/>
     <published>2021-09-27T00:00:00+00:00</published>
   </entry>
@@ -157,7 +157,7 @@
     <id> </id>
     <title>Ciambella</title>
     <updated>2021-09-27T00:00:00+00:00</updated>
-    <content>...</content>
+    <content>Questo é il mio primo modello realizzato con Blender. La maggior parte delle persone inizia proprio da questa semplice ciambella....</content>
     <link href=" " rel="alternate"/>
     <published>2021-09-27T00:00:00+00:00</published>
   </entry>
