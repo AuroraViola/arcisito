@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="../Assets/arcisito.css" rel="stylesheet"/>
+<link href="../Assets/Fonts/SpaceMono/Style.css" rel="stylesheet"/>
+<link href="../feed/atom.xml" rel="alternate" title="Feed Atom" type="application/atom+xml"/>
+<link href="../feed/rss.xml" rel="alternate" title="Feed RSS" type="application/rss+xml"/>
+<title>Quella volta che birckai la mia scheda madre - Arciblog - Arcisito</title>
+<meta content="Allora, era circa metà settembre 2022 e io stavo usando Arch Linux come sempre. Mi accorsi però che non ho mai installato intel-ucode da quando ho ins..." name="description"/>
+<link href="../favicon.png" rel="icon" type="image/png"/>
+<meta content="website" property="og:type"/>
+<meta content="Quella volta che birckai la mia scheda madre - Arciblog - Arcisito" property="og:title"/>
+<meta content="Allora, era circa metà settembre 2022 e io stavo usando Arch Linux come sempre. Mi accorsi però che non ho mai installato intel-ucode da quando ho ins..." property="og:description"/>
+<meta content="https://arci.me/Posts/2023-06-26-quella-volta-che-brickai-la-mobo.html" property="og:url"/>
+<meta content="../Assets/mobo/arch_install.png" property="og:image"/>
+<style>
+</style>
+<script src="../Assets/AVIF-Polyfill/index.js"></script>
+</head>
+<body id="Body">
+<div id="Container">
+<div id="TopBox">
+<div id="TopBoxLeft">
+<h3>
+<a href="../index.html">
+<strong class="twa twa-sparkles"></strong><strong class="MainIdTextGradientL">Arcisito</strong><strong class="twa twa-sparkles"></strong>
+</a>
+</h3>
+</div>
+<div id="TopBoxRight">
+<a class="NoABigger" href="../index.html#-Licenze"><img alt="CC BY-SA" height="31" src="../Assets/Buttons/CC-BY-SA.svg" title="CC BY-SA" width="88"/></a>
+</div>
+</div>
+<div id="MiddleBox">
+<div id="LeftBoxContainer">
+<details>
+<summary><big><b>[<span class="twa twa-books"><span>📚</span></span>]</b></big></summary>
+<div id="LeftBox">
+<ul class="staticoso-TreeList staticoso-PagesList">
+<li><a href="../index.html">🏠 ~Home~</a></li>
+<li><span><span class="twa twa-card-index-dividers"><span>🗂️</span></span> Raccolte</span>
+<ul>
+<li><a href="../Categories/Blog.html"><span class="twa twa-notebook"><span>📓️</span></span> Blog</a></li>
+<li><a href="../Categories/Incidenti.html"><span class="twa twa-framed-picture"><span>❗</span></span> Render</a></li>
+<li><a href="../Categories/Render.html"><span class="twa twa-framed-picture"><span>🖼️</span></span> Render</a></li>
+<li><a href="../Categories/Server.html"><span class="twa twa-globe-with-meridians"><span>🌐️</span></span> Server</a></li>
+</ul></li>
+</ul>
+<div class="Pixelated" id="LeftBoxBottom">
+<hr/>
+<a class="NoABigger" href="https://mastodon.bida.im/@arci" rel="noopener nofollow" target="_blank"><img alt="Follow me on Mastodon" src="../Assets/Buttons/Follow-me-on-Mastodon.png" title="Follow me on Mastodon"/></a>
+<br/>
+<a class="NoABigger" href="https://www.gnu.org/home.it" rel="noopener nofollow" target="_blank"><img alt="Made on GNU/Linux" src="../Assets/Buttons/Made-on-GNU-Linux.png" title="Made on GNU/Linux"/></a>
+</div>
+</div>
+</details>
+</div>
+<div id="RightBoxContainer">
+<details>
+<summary><big><b>[<span class="twa twa-bookmark-tabs"><span>📑</span></span>]</b></big></summary>
+<div id="RightBox">
+<ul class="staticoso-TreeList">
+<li><a href="#-Quella-volta-che-brickai-la-mia-"> Quella volta che brickai la mia scheda madre</a>
+<ul>
+<li><a href="#-Cosa-successe-un-mese-prima"> Cosa successe un mese prima</a></li>
+<li><a href="#-Come--successo-tutto-ci"> Come è successo tutto ciò</a></li>
+<li><a href="#-Rimedio-momentaneo"> Rimedio momentaneo</a></li>
+<li><a href="#-La-soluzione-costosa"> La soluzione costosa</a></li>
+<li><a href="#-La-soluzione-meno-costosa-che-o"> La soluzione meno costosa (che ovviamente arriva sempre tardi)</a></li>
+<li><a href="#-Cosa-ho-trovato"> Cosa ho trovato</a></li>
+<li><a href="#-E-ora"> E ora?</a></li>
+<li><a href="#-Cosa-ho-imparato"> Cosa ho imparato</a></li>
+</ul></li>
+</ul>
+</div>
+</details>
+</div>
+<div id="MainBox">
+<div id="MainBoxTop">
+<p><span class="staticoso-ContentHeader-CreatedOn" id="staticoso-ContentHeader-CreatedOn"><span class="staticoso-Label">Created on</span>: <span class="staticoso-Value">2023-06-26</span></span><br/><span class="staticoso-ContentHeader-EditedOn" id="staticoso-ContentHeader-EditedOn"><span class="staticoso-Label">Edited on</span>: <span class="staticoso-Value">2023-06-26</span></span><br/><span class="staticoso-ContentHeader-Categories" id="staticoso-ContentHeader-Categories"><span class="staticoso-Label">Categories</span>:<span class="staticoso-Value"> <a href="../Categories/Blog.html">Blog</a> <a href="../Categories/Incidenti.html">Incidenti</a></span></span><br/></p>
+</div>
+<h1 class="SectionHeading staticoso-SectionHeading"><span class="SectionLink staticoso-SectionLink"><a href="#-Quella-volta-che-brickai-la-mia-"><span>»</span></a> </span><span class="SectionTitle staticoso-SectionTitle" id="-Quella-volta-che-brickai-la-mia-">Quella volta che brickai la mia scheda madre</span></h1>
+<h2 class="SectionHeading staticoso-SectionHeading"><span class="SectionLink staticoso-SectionLink"><a href="#-Cosa-successe-un-mese-prima"><span>»</span></a> </span><span class="SectionTitle staticoso-SectionTitle" id="-Cosa-successe-un-mese-prima">Cosa successe un mese prima</span></h2>
+<p>Allora, era circa metà settembre 2022 e io stavo usando Arch Linux come sempre. Mi accorsi però che non ho mai installato intel-ucode da quando ho installato Linux (circa 3 anni) e il che era un grandissimo security issue. Allora installo tutto quanto ma dopo aver ricostruisco la config di GRUB, al riavvio, siccome Arch aveva deciso di rompere GRUB, si è riavviato nel bios. Per qualche ragione decisi di togliere Arch e stare su Windows per il momento.</p>
+<h2 class="SectionHeading staticoso-SectionHeading"><span class="SectionLink staticoso-SectionLink"><a href="#-Come--successo-tutto-ci"><span>»</span></a> </span><span class="SectionTitle staticoso-SectionTitle" id="-Come--successo-tutto-ci">Come è successo tutto ciò</span></h2>
+<p>Dopo un mese di Windows (cosa che non auguro a nessuno) ovviamente decido di installare di nuovo Arch ma questa volta decisi di usare systemd-boot al posto di GRUB per ciò che era successo. Ho usato arch-install per installare il tutto perché non avevo voglia di fare tutto manualmente. Sembra che va tutto bene ma appena riavvio succede letteralmente la megafine, il PC si spegne e si riaccende di continuo senza dare alcun segnale sul monitor.</p>
+<p><img alt="Io prima del disastro" src="../Assets/mobo/arch_install.png" title="Io prima del disastro"/></p>
+<p>Faccio letteralmente qualsiasi cosa per risolver. Ho resettato il CMOS, tolto e rimesso le RAM, rimosso tutti i dischi, tolta la scheda video ma comunque non andava si spegneva e si riaccendeva.</p>
+<p><img alt="Io cercando di fixare" src="../Assets/mobo/fix_motherboard.png" title="Io cercando di fixare"/></p>
+<p>Allora dato che è impossibile (o così credevo) che una installazione di Linux possa brickare una scheda madre mi viene da pensare che era l'ora che quella scheda madre morisse e che il tutto sia successo dopo l'installazione di Arch era solo un caso.</p>
+<h2 class="SectionHeading staticoso-SectionHeading"><span class="SectionLink staticoso-SectionLink"><a href="#-Rimedio-momentaneo"><span>»</span></a> </span><span class="SectionTitle staticoso-SectionTitle" id="-Rimedio-momentaneo">Rimedio momentaneo</span></h2>
+<p>Quindi l'unica soluzione momentanea era quella di usare il portatile come computer principale. Letteralmente un portatile di 9 anni fa che ha tipo il pulsante di accensione mezzo rotto e che dopo una po' di tempo che sta acceso per nessuna ragione va in kernel panic.</p>
+<h2 class="SectionHeading staticoso-SectionHeading"><span class="SectionLink staticoso-SectionLink"><a href="#-La-soluzione-costosa"><span>»</span></a> </span><span class="SectionTitle staticoso-SectionTitle" id="-La-soluzione-costosa">La soluzione costosa</span></h2>
+<p>Ovviamente restare con un portatile del genere non era una soluzione. Anche perché occupa un sacco di spazio sulla scrivania e a mala pena potevo giocarci a Minecraft. Quindi in tipo 3 giorni di completa agonia riesco a prendere CPU e scheda madre nuove spendendo tipo 300 euro. Il pro è che avevo una CPU decisamente più potente e di nuovo un pc ma il contro è che avevo 300 euro in meno. Avrei potuto comprare una nuova scheda madre compatibile con il mio vecchio i5 di sesta generazione ma ormai costavano troppo e non sapevo se era rotta la CPU o la scheda madre.</p>
+<p>Comunque si alla fine quando sono arrivate ho preso montato tutto quanto e ho impiegato tipo 4 ore perché skill issues. Il tutto funzionava molto bene, peccato però che avevo 300 euro in meno.</p>
+<p><img alt="Io vedendo che il pc si accende e funziona" src="../Assets/mobo/pc_nuovo.png" title="Io vedendo che il pc si accende e funziona"/></p>
+<h2 class="SectionHeading staticoso-SectionHeading"><span class="SectionLink staticoso-SectionLink"><a href="#-La-soluzione-meno-costosa-che-o"><span>»</span></a> </span><span class="SectionTitle staticoso-SectionTitle" id="-La-soluzione-meno-costosa-che-o">La soluzione meno costosa (che ovviamente arriva sempre tardi)</span></h2>
+<p>A gennaio, dopo 4 mesi, per qualche ragione mi sono imbattuta in <a href="https://github.com/corna/me_cleaner/issues/98">questa guida</a> per come usare me_cleaner sulla mia vecchia scheda madre. Noto benissimo che il chip del bios è estraibile e per vedere se fosse successo realmente qualcosa nel bios compro un dispositivo che legge e scrive sul chip del bios.</p>
+<p>Il dispositivo arriva dopo 2 giorni e dopo aver tolto il durissimo chip del bios dalla scheda madre ho estratto la rom.</p>
+<h2 class="SectionHeading staticoso-SectionHeading"><span class="SectionLink staticoso-SectionLink"><a href="#-Cosa-ho-trovato"><span>»</span></a> </span><span class="SectionTitle staticoso-SectionTitle" id="-Cosa-ho-trovato">Cosa ho trovato</span></h2>
+<p>Qui arrivano le cose belle. Appena apro il file sembra che sia molto simile a quello originale ma poi guardando meglio trovo cose molto sospette. Infatti nella rom del bios che ho estratto ci stavano i dmesg di errori avvenuti tipo 3 anni fa e persino una boot entry di quando feci hackintosh nel 2016 che conteneva anche la mia email (privacy issue).</p>
+<p><img alt="Robe che stavano nella NVRAM" src="../Assets/mobo/dmesg1.png" title="Robe che stavano nella NVRAM"/></p>
+<p>Si è normale che ci siano robe di Linux perché per qualche ragione i dmesg possono essere scritti sulla NVRAM, però, in quella parte del file, insieme ai dmesg, ci stavano anche cose per le sequenze di boot e, probabilmente, systemd-boot ha scritto qualcosa che ad Asus non piaceva e quindi non riusciva più ad avviarsi.</p>
+<h2 class="SectionHeading staticoso-SectionHeading"><span class="SectionLink staticoso-SectionLink"><a href="#-E-ora"><span>»</span></a> </span><span class="SectionTitle staticoso-SectionTitle" id="-E-ora">E ora?</span></h2>
+<p>Ancora non sapevo se si poteva trovare un fix ma ho deciso di flashare il chip con la rom originale (che però perdi serial number e indirizzo MAC). Aspetto per varie complicanze un mese per poter vedere se funziona ma "montando" la scheda madre su una testbench molto improvvisata veniva fuori un altro problema che era diverso da quello originale e facendo altre prove, tipo cambiando lo slot delle ram, letteralmente si accende e va nel bios. Ora non so se riuscirebbe ad avviare Linux o Windows ma almeno so qual è stata la causa (Systemd-boot o/e arch-install).</p>
+<p><img alt="Quindi si funziona" src="../Assets/mobo/fix_final.png" title="Quindi si funziona"/></p>
+<h2 class="SectionHeading staticoso-SectionHeading"><span class="SectionLink staticoso-SectionLink"><a href="#-Cosa-ho-imparato"><span>»</span></a> </span><span class="SectionTitle staticoso-SectionTitle" id="-Cosa-ho-imparato">Cosa ho imparato</span></h2>
+<p>Oltre a sapere come si flasha un bios chip, so anche che non bisogna mai fidarsi di systemd-boot (o di arch-install) e si deve sempre usare GRUB sennò succede questa cosa molto brutta e mi ritrovo con un scheda madre mattonata.</p>
+<div id="MainBoxBottom">
+				
+				<br/>
+<br/>
+<div class="Pixelated" id="MainBoxGlobalFooter">
+<hr/>
+<br/>
+<a class="NoABigger NoLinkLink" href="../index.html"><img alt="Arcisito" src="../Assets/Buttons/Sites/arcisito-1.png" title="Arcisito"/></a>
+<br/>
+<p><a href="../index.html#-Licenze">Copyright</a> (C) 2022, Arci</p>
+<p>Powered by <a href="https://gitlab.com/octtspacc/staticoso">Staticoso</a></p>
+<p id="BuildTimeLine">Pagina compilata in data: <span>2023-06-26 16:47</span></p>
+</div>
+</div>
+</div>
+</div>
+<div id="BottomBoxContainer">
+<label for="BottomBoxCheck" id="BottomBoxLabel"><big><b>[<span class="twa twa-label"><span>🏷️</span></span>]</b></big></label>
+<input id="BottomBoxCheck" type="checkbox"/>
+<div class="ToggleBox" id="BottomBox">
+<h3>
+<a href="#Container">
+<strong class="twa twa-up-arrow"><span>⬆️</span></strong><strong> Torna su</strong>
+</a>
+</h3>
+</div>
+</div>
+</div>
+</body>
+</html>

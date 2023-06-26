@@ -2,10 +2,44 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id> </id>
   <title>Arcisito</title>
-  <updated>2023-06-26T00:25:22.739131+00:00</updated>
+  <updated>2023-06-26T16:47:49.766923+00:00</updated>
   <link href=" " rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <subtitle> </subtitle>
+  <entry>
+    <id> </id>
+    <title>Quella volta che birckai la mia scheda madre</title>
+    <updated>2023-06-26T00:00:00+00:00</updated>
+    <content type="html">&lt;h1 class="SectionHeading staticoso-SectionHeading"&gt;&lt;span class="SectionLink staticoso-SectionLink"&gt;&lt;a href="#-Quella-volta-che-brickai-la-mia-"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle staticoso-SectionTitle" id="-Quella-volta-che-brickai-la-mia-"&gt;Quella volta che brickai la mia scheda madre&lt;/span&gt;&lt;/h1&gt;
+&lt;h2 class="SectionHeading staticoso-SectionHeading"&gt;&lt;span class="SectionLink staticoso-SectionLink"&gt;&lt;a href="#-Cosa-successe-un-mese-prima"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle staticoso-SectionTitle" id="-Cosa-successe-un-mese-prima"&gt;Cosa successe un mese prima&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Allora, era circa metà settembre 2022 e io stavo usando Arch Linux come sempre. Mi accorsi però che non ho mai installato intel-ucode da quando ho installato Linux (circa 3 anni) e il che era un grandissimo security issue. Allora installo tutto quanto ma dopo aver ricostruisco la config di GRUB, al riavvio, siccome Arch aveva deciso di rompere GRUB, si è riavviato nel bios. Per qualche ragione decisi di togliere Arch e stare su Windows per il momento.&lt;/p&gt;
+&lt;h2 class="SectionHeading staticoso-SectionHeading"&gt;&lt;span class="SectionLink staticoso-SectionLink"&gt;&lt;a href="#-Come--successo-tutto-ci"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle staticoso-SectionTitle" id="-Come--successo-tutto-ci"&gt;Come è successo tutto ciò&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Dopo un mese di Windows (cosa che non auguro a nessuno) ovviamente decido di installare di nuovo Arch ma questa volta decisi di usare systemd-boot al posto di GRUB per ciò che era successo. Ho usato arch-install per installare il tutto perché non avevo voglia di fare tutto manualmente. Sembra che va tutto bene ma appena riavvio succede letteralmente la megafine, il PC si spegne e si riaccende di continuo senza dare alcun segnale sul monitor.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Io prima del disastro" src="[staticoso:Site:RelativeRoot]Assets/mobo/arch_install.png" title="Io prima del disastro"/&gt;&lt;/p&gt;
+&lt;p&gt;Faccio letteralmente qualsiasi cosa per risolver. Ho resettato il CMOS, tolto e rimesso le RAM, rimosso tutti i dischi, tolta la scheda video ma comunque non andava si spegneva e si riaccendeva.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Io cercando di fixare" src="[staticoso:Site:RelativeRoot]Assets/mobo/fix_motherboard.png" title="Io cercando di fixare"/&gt;&lt;/p&gt;
+&lt;p&gt;Allora dato che è impossibile (o così credevo) che una installazione di Linux possa brickare una scheda madre mi viene da pensare che era l'ora che quella scheda madre morisse e che il tutto sia successo dopo l'installazione di Arch era solo un caso.&lt;/p&gt;
+&lt;h2 class="SectionHeading staticoso-SectionHeading"&gt;&lt;span class="SectionLink staticoso-SectionLink"&gt;&lt;a href="#-Rimedio-momentaneo"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle staticoso-SectionTitle" id="-Rimedio-momentaneo"&gt;Rimedio momentaneo&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Quindi l'unica soluzione momentanea era quella di usare il portatile come computer principale. Letteralmente un portatile di 9 anni fa che ha tipo il pulsante di accensione mezzo rotto e che dopo una po' di tempo che sta acceso per nessuna ragione va in kernel panic.&lt;/p&gt;
+&lt;h2 class="SectionHeading staticoso-SectionHeading"&gt;&lt;span class="SectionLink staticoso-SectionLink"&gt;&lt;a href="#-La-soluzione-costosa"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle staticoso-SectionTitle" id="-La-soluzione-costosa"&gt;La soluzione costosa&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Ovviamente restare con un portatile del genere non era una soluzione. Anche perché occupa un sacco di spazio sulla scrivania e a mala pena potevo giocarci a Minecraft. Quindi in tipo 3 giorni di completa agonia riesco a prendere CPU e scheda madre nuove spendendo tipo 300 euro. Il pro è che avevo una CPU decisamente più potente e di nuovo un pc ma il contro è che avevo 300 euro in meno. Avrei potuto comprare una nuova scheda madre compatibile con il mio vecchio i5 di sesta generazione ma ormai costavano troppo e non sapevo se era rotta la CPU o la scheda madre.&lt;/p&gt;
+&lt;p&gt;Comunque si alla fine quando sono arrivate ho preso montato tutto quanto e ho impiegato tipo 4 ore perché skill issues. Il tutto funzionava molto bene, peccato però che avevo 300 euro in meno.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Io vedendo che il pc si accende e funziona" src="[staticoso:Site:RelativeRoot]Assets/mobo/pc_nuovo.png" title="Io vedendo che il pc si accende e funziona"/&gt;&lt;/p&gt;
+&lt;h2 class="SectionHeading staticoso-SectionHeading"&gt;&lt;span class="SectionLink staticoso-SectionLink"&gt;&lt;a href="#-La-soluzione-meno-costosa-che-o"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle staticoso-SectionTitle" id="-La-soluzione-meno-costosa-che-o"&gt;La soluzione meno costosa (che ovviamente arriva sempre tardi)&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;A gennaio, dopo 4 mesi, per qualche ragione mi sono imbattuta in &lt;a href="https://github.com/corna/me_cleaner/issues/98"&gt;questa guida&lt;/a&gt; per come usare me_cleaner sulla mia vecchia scheda madre. Noto benissimo che il chip del bios è estraibile e per vedere se fosse successo realmente qualcosa nel bios compro un dispositivo che legge e scrive sul chip del bios.&lt;/p&gt;
+&lt;p&gt;Il dispositivo arriva dopo 2 giorni e dopo aver tolto il durissimo chip del bios dalla scheda madre ho estratto la rom.&lt;/p&gt;
+&lt;h2 class="SectionHeading staticoso-SectionHeading"&gt;&lt;span class="SectionLink staticoso-SectionLink"&gt;&lt;a href="#-Cosa-ho-trovato"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle staticoso-SectionTitle" id="-Cosa-ho-trovato"&gt;Cosa ho trovato&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Qui arrivano le cose belle. Appena apro il file sembra che sia molto simile a quello originale ma poi guardando meglio trovo cose molto sospette. Infatti nella rom del bios che ho estratto ci stavano i dmesg di errori avvenuti tipo 3 anni fa e persino una boot entry di quando feci hackintosh nel 2016 che conteneva anche la mia email (privacy issue).&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Robe che stavano nella NVRAM" src="[staticoso:Site:RelativeRoot]Assets/mobo/dmesg1.png" title="Robe che stavano nella NVRAM"/&gt;&lt;/p&gt;
+&lt;p&gt;Si è normale che ci siano robe di Linux perché per qualche ragione i dmesg possono essere scritti sulla NVRAM, però, in quella parte del file, insieme ai dmesg, ci stavano anche cose per le sequenze di boot e, probabilmente, systemd-boot ha scritto qualcosa che ad Asus non piaceva e quindi non riusciva più ad avviarsi.&lt;/p&gt;
+&lt;h2 class="SectionHeading staticoso-SectionHeading"&gt;&lt;span class="SectionLink staticoso-SectionLink"&gt;&lt;a href="#-E-ora"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle staticoso-SectionTitle" id="-E-ora"&gt;E ora?&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Ancora non sapevo se si poteva trovare un fix ma ho deciso di flashare il chip con la rom originale (che però perdi serial number e indirizzo MAC). Aspetto per varie complicanze un mese per poter vedere se funziona ma "montando" la scheda madre su una testbench molto improvvisata veniva fuori un altro problema che era diverso da quello originale e facendo altre prove, tipo cambiando lo slot delle ram, letteralmente si accende e va nel bios. Ora non so se riuscirebbe ad avviare Linux o Windows ma almeno so qual è stata la causa (Systemd-boot o/e arch-install).&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Quindi si funziona" src="[staticoso:Site:RelativeRoot]Assets/mobo/fix_final.png" title="Quindi si funziona"/&gt;&lt;/p&gt;
+&lt;h2 class="SectionHeading staticoso-SectionHeading"&gt;&lt;span class="SectionLink staticoso-SectionLink"&gt;&lt;a href="#-Cosa-ho-imparato"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle staticoso-SectionTitle" id="-Cosa-ho-imparato"&gt;Cosa ho imparato&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;Oltre a sapere come si flasha un bios chip, so anche che non bisogna mai fidarsi di systemd-boot (o di arch-install) e si deve sempre usare GRUB sennò succede questa cosa molto brutta e mi ritrovo con un scheda madre mattonata.&lt;/p&gt;</content>
+    <link href=" " rel="alternate"/>
+    <published>2023-06-26T00:00:00+00:00</published>
+  </entry>
   <entry>
     <id> </id>
     <title>Aggiornamenti sul sito</title>
@@ -131,16 +165,6 @@
 &lt;p&gt;&lt;img alt="Camera da letto con luci accese" src="[staticoso:Site:RelativeRoot]Assets/Render/Bedroom-1.png" title="Camera da letto con luci accese"/&gt;
 &lt;img alt="Camera da letto con luci spente" src="[staticoso:Site:RelativeRoot]Assets/Render/Bedroom-2.png" title="Camera da letto con luci spente"/&gt;&lt;/p&gt;
 &lt;p&gt;Una rappresentazione di camera mia fatta a voxel. Uno dei primi progetti in cui ci ho messo veramente tanto impegno.&lt;/p&gt;</content>
-    <link href=" " rel="alternate"/>
-    <published>2021-09-27T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id> </id>
-    <title>Pappagallo</title>
-    <updated>2021-09-27T00:00:00+00:00</updated>
-    <content type="html">&lt;h1 class="SectionHeading staticoso-SectionHeading"&gt;&lt;span class="SectionLink staticoso-SectionLink"&gt;&lt;a href="#-Pappagallo"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle staticoso-SectionTitle" id="-Pappagallo"&gt;Pappagallo&lt;/span&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;img alt="Pappagallo fatto a voxel" src="[staticoso:Site:RelativeRoot]Assets/Render/Parrot.png" title="Pappagallo fatto a voxel"/&gt;&lt;/p&gt;
-&lt;p&gt;Un semplice pappagallo fatto su Blender dato che Goxel é abbastanza limitato e lento nel rendering&lt;/p&gt;</content>
     <link href=" " rel="alternate"/>
     <published>2021-09-27T00:00:00+00:00</published>
   </entry>

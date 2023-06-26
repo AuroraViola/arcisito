@@ -7,9 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Jun 2023 00:25:22 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jun 2023 16:47:49 +0000</lastBuildDate>
     <item>
       <title>📓️ Blog</title>
+      <link> </link>
+      <guid isPermaLink="false"> </guid>
+    </item>
+    <item>
+      <title>❗ Incidenti</title>
       <link> </link>
       <guid isPermaLink="false"> </guid>
     </item>
@@ -33,6 +38,13 @@
       <link> </link>
       <description>Questo è il mio sito dove pubblicherò esperienze e avventure che avrò riguardo ciò che mi piace. Non per forza ci sarà un topic preciso....</description>
       <guid isPermaLink="false"> </guid>
+    </item>
+    <item>
+      <title>Quella volta che birckai la mia scheda madre</title>
+      <link> </link>
+      <description>Allora, era circa metà settembre 2022 e io stavo usando Arch Linux come sempre. Mi accorsi però che non ho mai installato intel-ucode da quando ho ins...</description>
+      <guid isPermaLink="false"> </guid>
+      <pubDate>Mon, 26 Jun 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>Aggiornamenti sul sito</title>
