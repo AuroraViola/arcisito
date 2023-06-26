@@ -10,9 +10,9 @@ Questo è il mio sito dove pubblicherò esperienze e avventure che avrò riguard
 
 ## Chi sono e cosa faccio
 
-Come si può leggere dal nome del sito e dal dominio, sono Arci (o anche Aurora) e sono la webmistress di questo sito. Oltre a ciò faccio altre cose come selfhostare roba, moddare dispositivi, stare appresso a Linux e studiare robe che riguardano l’IT (non più perché ormai ho finito scuola anche se dovrò andare all’università che è dieci volte peggio).
+Sono Aurora, ho 19 anni e sono la webmistress di questo sito. Oltre a ciò faccio altre cose come studiare in università, selfhostare roba, moddare dispositivi, stare appresso a Linux e studiare robe che riguardano l’IT.
 
-A volte mi piace anche fare qualche render, soprattutto con Blender, giusto perché non so cosa fare. Li pubblicherò qui ma non sarà quasi mai nulla di serio.
+A volte mi piace anche fare qualche render, giusto perché non so cosa fare. Li pubblicherò qui ma non sarà quasi mai nulla di serio.
 
 ## Licenze
 
