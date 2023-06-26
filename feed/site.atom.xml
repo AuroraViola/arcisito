@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id> </id>
   <title>Arcisito</title>
-  <updated>2023-06-26T16:59:28.145605+00:00</updated>
+  <updated>2023-06-26T17:04:39.279811+00:00</updated>
   <link href=" " rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <subtitle> </subtitle>
@@ -50,7 +50,7 @@
   </entry>
   <entry>
     <id> </id>
-    <title>Quella volta che birckai la mia scheda madre</title>
+    <title>Quella volta che brickai la mia scheda madre</title>
     <updated>2023-06-26T00:00:00+00:00</updated>
     <content>Allora, era circa metà settembre 2022 e io stavo usando Arch Linux come sempre. Mi accorsi però che non ho mai installato intel-ucode da quando ho ins...</content>
     <link href=" " rel="alternate"/>
