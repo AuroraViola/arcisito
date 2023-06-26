@@ -1,4 +1,4 @@
-// % Title: Quella volta che birckai la mia scheda madre
+// % Title: Quella volta che brickai la mia scheda madre
 // % HTMLTitle: Quella volta che brickai la mia scheda madre
 // % Categories: Blog Incidenti
 // % CreatedOn: 2023-06-26
