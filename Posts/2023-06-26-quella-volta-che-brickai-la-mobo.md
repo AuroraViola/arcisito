@@ -16,7 +16,7 @@ Dopo un mese di Windows (cosa che non auguro a nessuno) ovviamente decido di ins
 
 ![Io prima del disastro]([staticoso:Site:RelativeRoot]Assets/mobo/arch_install.png)
 
-Faccio letteralmente qualsiasi cosa per risolver. Ho resettato il CMOS, tolto e rimesso le RAM, rimosso tutti i dischi, tolta la scheda video ma comunque non andava si spegneva e si riaccendeva.
+Faccio letteralmente qualsiasi cosa per risolvere. Ho resettato il CMOS, tolto e rimesso le RAM, rimosso tutti i dischi, tolta la scheda video ma comunque non andava si spegneva e si riaccendeva.
 
 ![Io cercando di fixare]([staticoso:Site:RelativeRoot]Assets/mobo/fix_motherboard.png)
 
