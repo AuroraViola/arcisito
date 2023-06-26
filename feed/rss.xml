@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Jun 2023 17:04:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Jun 2023 17:06:27 +0000</lastBuildDate>
     <item>
       <title>Quella volta che brickai la mia scheda madre</title>
       <link> </link>
@@ -18,7 +18,7 @@
 &lt;h2 class="SectionHeading staticoso-SectionHeading"&gt;&lt;span class="SectionLink staticoso-SectionLink"&gt;&lt;a href="#-Come--successo-tutto-ci"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle staticoso-SectionTitle" id="-Come--successo-tutto-ci"&gt;Come è successo tutto ciò&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;Dopo un mese di Windows (cosa che non auguro a nessuno) ovviamente decido di installare di nuovo Arch ma questa volta decisi di usare systemd-boot al posto di GRUB per ciò che era successo. Ho usato arch-install per installare il tutto perché non avevo voglia di fare tutto manualmente. Sembra che va tutto bene ma appena riavvio succede letteralmente la megafine, il PC si spegne e si riaccende di continuo senza dare alcun segnale sul monitor.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Io prima del disastro" src="[staticoso:Site:RelativeRoot]Assets/mobo/arch_install.png" title="Io prima del disastro"/&gt;&lt;/p&gt;
-&lt;p&gt;Faccio letteralmente qualsiasi cosa per risolver. Ho resettato il CMOS, tolto e rimesso le RAM, rimosso tutti i dischi, tolta la scheda video ma comunque non andava si spegneva e si riaccendeva.&lt;/p&gt;
+&lt;p&gt;Faccio letteralmente qualsiasi cosa per risolvere. Ho resettato il CMOS, tolto e rimesso le RAM, rimosso tutti i dischi, tolta la scheda video ma comunque non andava si spegneva e si riaccendeva.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="Io cercando di fixare" src="[staticoso:Site:RelativeRoot]Assets/mobo/fix_motherboard.png" title="Io cercando di fixare"/&gt;&lt;/p&gt;
 &lt;p&gt;Allora dato che è impossibile (o così credevo) che una installazione di Linux possa brickare una scheda madre mi viene da pensare che era l'ora che quella scheda madre morisse e che il tutto sia successo dopo l'installazione di Arch era solo un caso.&lt;/p&gt;
 &lt;h2 class="SectionHeading staticoso-SectionHeading"&gt;&lt;span class="SectionLink staticoso-SectionLink"&gt;&lt;a href="#-Rimedio-momentaneo"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle staticoso-SectionTitle" id="-Rimedio-momentaneo"&gt;Rimedio momentaneo&lt;/span&gt;&lt;/h2&gt;
