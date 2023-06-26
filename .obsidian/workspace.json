@@ -1,0 +1,155 @@
+{
+  "main": {
+    "id": "33d147e6326516c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "444fc61069cf986f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "41216cb002787809",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Posts/2023-06-26-quella-volta-che-brickai-la-mobo.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cac44e701fb3a476",
+    "type": "split",
+    "children": [
+      {
+        "id": "aea95e9fe64805fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8f38edcbecb1bf21",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e60c1d0596d6057b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "600edfabf22186c1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "bf2de6f608bf0994",
+    "type": "split",
+    "children": [
+      {
+        "id": "f519f0d08e807d9d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "261ab1980140899d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Posts/2023-06-26-quella-volta-che-brickai-la-mobo.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d1d736927d79f7b9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Posts/2023-06-26-quella-volta-che-brickai-la-mobo.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0304c6b099caf722",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c51362323e076df7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Posts/2023-06-26-quella-volta-che-brickai-la-mobo.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Apri selezione rapida": false,
+      "graph:Apri vista grafo": false,
+      "canvas:Crea nuova lavagna": false,
+      "daily-notes:Apri nota del giorno": false,
+      "templates:Inserisci modello": false,
+      "command-palette:Apri riquadro comandi": false
+    }
+  },
+  "active": "41216cb002787809",
+  "lastOpenFiles": [
+    "Posts/2022-09-02-aggiornamenti-sul-sito.md",
+    "Posts/2023-06-26-quella-volta-che-brickai-la-mobo.md",
+    "Posts/2022-07-01-la-mia-esperienza-con-i-music-server.md"
+  ]
+}
