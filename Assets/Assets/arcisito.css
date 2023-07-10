@@ -27,7 +27,7 @@ Body {
 	Left: Auto;
 	Right: Auto;
 	Color: #080810;
-	Background: #eeddff;
+	Background: #feddff;
 	Font-Size: 13pt;
 	Padding: Var(--ContentPadding);
 	Overflow-Wrap: Break-Word;
@@ -60,7 +60,7 @@ A {
 	Color: #D000D0;
 }
 H1, H2, H3, H4, H5, H6 {
-	Color: #503080;
+	Color: ##9e247d;
 }
 Ul {
 	Padding-Left: 16px;
