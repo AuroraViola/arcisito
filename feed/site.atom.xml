@@ -2,34 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id> </id>
   <title>Arcisito</title>
-  <updated>2023-07-10T21:50:59.985262+00:00</updated>
+  <updated>2023-07-18T18:16:00.098748+00:00</updated>
   <link href=" " rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <subtitle> </subtitle>
   <entry>
     <id> </id>
     <title>📓️ Blog</title>
-    <updated>1970-01-01T00:00:00+00:00</updated>
-    <content/>
-    <link href=" " rel="alternate"/>
-  </entry>
-  <entry>
-    <id> </id>
-    <title>❗ Incidenti</title>
-    <updated>1970-01-01T00:00:00+00:00</updated>
-    <content/>
-    <link href=" " rel="alternate"/>
-  </entry>
-  <entry>
-    <id> </id>
-    <title>🖼️ Render</title>
-    <updated>1970-01-01T00:00:00+00:00</updated>
-    <content/>
-    <link href=" " rel="alternate"/>
-  </entry>
-  <entry>
-    <id> </id>
-    <title>🌐️ Server</title>
     <updated>1970-01-01T00:00:00+00:00</updated>
     <content/>
     <link href=" " rel="alternate"/>
@@ -43,7 +22,7 @@
   </entry>
   <entry>
     <id> </id>
-    <title>🏠 ~Home~</title>
+    <title>🏠 Home</title>
     <updated>1970-01-01T00:00:00+00:00</updated>
     <content>Questo è il mio sito dove pubblicherò esperienze e avventure che avrò riguardo ciò che mi piace. Non per forza ci sarà un topic preciso....</content>
     <link href=" " rel="alternate"/>

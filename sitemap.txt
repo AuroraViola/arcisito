@@ -1,8 +1,5 @@
-Categories/Blog.html
-Categories/Incidenti.html
-Categories/Render.html
-Categories/Server.html
-Categories/index.html
+Blog.html
+Raccolte.html
 index.html
 Posts/2023-06-26-quella-volta-che-brickai-la-mobo.html
 Posts/2022-09-02-aggiornamenti-sul-sito.html
