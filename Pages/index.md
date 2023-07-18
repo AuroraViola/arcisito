@@ -1,4 +1,4 @@
-// % Title = 🏠 ~Home~
+// % Title = 🏠 Home
 // % Index = True
 // % Order = 10
 

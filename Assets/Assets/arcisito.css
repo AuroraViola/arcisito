@@ -18,6 +18,9 @@
 ::Selection {
 	Background-Color: RGBA(170, 170, 255, 0.2);
 }
+html {
+  scroll-behavior: smooth;
+}
 Body {
 	Margin: 0;
 	Box-Sizing: Border-Box;
@@ -274,10 +277,10 @@ H3:hover {
 #BottomBoxContainer {
 	Padding: Var(--ScreenBorderPadding);
 }
-#TopBoxLeft {
-	Text-Align: Left;
-	Display: Inline-Block;
+#TopBoxLeft li{
+	Display: Inline;
 }
+
 #TopBoxRight {
 	Text-Align: Right;
 	Float: Right;
@@ -354,7 +357,7 @@ H3:hover {
  *    Gradienti                                           *
  *--------------------------------------------------------*/
 
-.MainIdTextGradientL {
+.MainIdTextGradientL li {
 	Background: linear-gradient(to left, #d000d0, #8040d0);
 	Color: Transparent;
 	-webkit-background-clip: Text;
