@@ -4,6 +4,7 @@ index.html
 Posts/2023-06-26-quella-volta-che-brickai-la-mobo.html
 Posts/2022-09-02-aggiornamenti-sul-sito.html
 Posts/2022-07-01-la-mia-esperienza-con-i-music-server.html
+Posts/Render/17-Undertale-specchio.html
 Posts/Render/16-isola-fantasia-con-i-nomi.html
 Posts/Render/15-welcome-to-void.html
 Posts/Render/14-frattali.html

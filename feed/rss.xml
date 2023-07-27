@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 18 Jul 2023 18:16:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jul 2023 22:22:38 +0000</lastBuildDate>
     <item>
       <title>Quella volta che brickai la mia scheda madre</title>
       <link> </link>
@@ -94,6 +94,16 @@
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Undertale "Despite everything, it's still you"</title>
+      <link> </link>
+      <description>Ho voluto fare questo render perché volevo ricreare ciò in 3D....</description>
+      <content:encoded>&lt;h1 class="SectionHeading staticoso-SectionHeading"&gt;&lt;span class="SectionLink staticoso-SectionLink"&gt;&lt;a href="#-Undertale-Despite-everything-i"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle staticoso-SectionTitle" id="-Undertale-Despite-everything-i"&gt;Undertale "Despite everything, it's still you"&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="diorama di Frisk che guarda lo specchio con sotto scritto la frase &amp;quot;Despite everything, it's still you&amp;quot;" src="[staticoso:Site:RelativeRoot]Assets/Render/Undertale.png" title="diorama di Frisk che guarda lo specchio con sotto scritto la frase &amp;quot;Despite everything, it's still you&amp;quot;"/&gt;&lt;/p&gt;
+&lt;p&gt;Ho voluto fare questo render perché volevo ricreare ciò in 3D.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false"> </guid>
+      <pubDate>Fri, 28 Jul 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Isola (si che fantasia con i nomi)</title>
       <link> </link>
       <description>Questa scena è stata più un’esercitazione per inserire il foliage e non è servita ad altro. Tra l’altro non è venuto nemmeno bene ma pazienza....</description>
@@ -156,17 +166,6 @@
       <content:encoded>&lt;h1 class="SectionHeading staticoso-SectionHeading"&gt;&lt;span class="SectionLink staticoso-SectionLink"&gt;&lt;a href="#-Auto-low-poly"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle staticoso-SectionTitle" id="-Auto-low-poly"&gt;Auto low poly&lt;/span&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="Automobile arancione low poly" src="[staticoso:Site:RelativeRoot]Assets/Render/lowPolyCar.png" title="Automobile arancione low poly"/&gt;&lt;/p&gt;
 &lt;p&gt;Un’auto low poly creata con Blender seguendo &lt;a href="https://youtu.be/Zkg7Ol2jEjs"&gt;questo&lt;/a&gt; tutorial.&lt;/p&gt;</content:encoded>
-      <guid isPermaLink="false"> </guid>
-      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Camera da letto</title>
-      <link> </link>
-      <description> ...</description>
-      <content:encoded>&lt;h1 class="SectionHeading staticoso-SectionHeading"&gt;&lt;span class="SectionLink staticoso-SectionLink"&gt;&lt;a href="#-Camera-da-letto"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle staticoso-SectionTitle" id="-Camera-da-letto"&gt;Camera da letto&lt;/span&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;img alt="Camera da letto con luci accese" src="[staticoso:Site:RelativeRoot]Assets/Render/Bedroom-1.png" title="Camera da letto con luci accese"/&gt;
-&lt;img alt="Camera da letto con luci spente" src="[staticoso:Site:RelativeRoot]Assets/Render/Bedroom-2.png" title="Camera da letto con luci spente"/&gt;&lt;/p&gt;
-&lt;p&gt;Una rappresentazione di camera mia fatta a voxel. Uno dei primi progetti in cui ci ho messo veramente tanto impegno.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false"> </guid>
       <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
     </item>

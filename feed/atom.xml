@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id> </id>
   <title>Arcisito</title>
-  <updated>2023-07-18T18:16:00.106623+00:00</updated>
+  <updated>2023-07-27T22:22:38.610148+00:00</updated>
   <link href=" " rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <subtitle> </subtitle>
@@ -93,6 +93,16 @@
   </entry>
   <entry>
     <id> </id>
+    <title>Undertale "Despite everything, it's still you"</title>
+    <updated>2023-07-28T00:00:00+00:00</updated>
+    <content type="html">&lt;h1 class="SectionHeading staticoso-SectionHeading"&gt;&lt;span class="SectionLink staticoso-SectionLink"&gt;&lt;a href="#-Undertale-Despite-everything-i"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle staticoso-SectionTitle" id="-Undertale-Despite-everything-i"&gt;Undertale "Despite everything, it's still you"&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="diorama di Frisk che guarda lo specchio con sotto scritto la frase &amp;quot;Despite everything, it's still you&amp;quot;" src="[staticoso:Site:RelativeRoot]Assets/Render/Undertale.png" title="diorama di Frisk che guarda lo specchio con sotto scritto la frase &amp;quot;Despite everything, it's still you&amp;quot;"/&gt;&lt;/p&gt;
+&lt;p&gt;Ho voluto fare questo render perché volevo ricreare ciò in 3D.&lt;/p&gt;</content>
+    <link href=" " rel="alternate"/>
+    <published>2023-07-28T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id> </id>
     <title>Isola (si che fantasia con i nomi)</title>
     <updated>2022-07-31T00:00:00+00:00</updated>
     <content type="html">&lt;h1 class="SectionHeading staticoso-SectionHeading"&gt;&lt;span class="SectionLink staticoso-SectionLink"&gt;&lt;a href="#-Isola-si-che-fantasia-con-i-nom"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle staticoso-SectionTitle" id="-Isola-si-che-fantasia-con-i-nom"&gt;Isola (si che fantasia con i nomi)&lt;/span&gt;&lt;/h1&gt;
@@ -154,17 +164,6 @@
     <content type="html">&lt;h1 class="SectionHeading staticoso-SectionHeading"&gt;&lt;span class="SectionLink staticoso-SectionLink"&gt;&lt;a href="#-Auto-low-poly"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle staticoso-SectionTitle" id="-Auto-low-poly"&gt;Auto low poly&lt;/span&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="Automobile arancione low poly" src="[staticoso:Site:RelativeRoot]Assets/Render/lowPolyCar.png" title="Automobile arancione low poly"/&gt;&lt;/p&gt;
 &lt;p&gt;Un’auto low poly creata con Blender seguendo &lt;a href="https://youtu.be/Zkg7Ol2jEjs"&gt;questo&lt;/a&gt; tutorial.&lt;/p&gt;</content>
-    <link href=" " rel="alternate"/>
-    <published>2021-09-27T00:00:00+00:00</published>
-  </entry>
-  <entry>
-    <id> </id>
-    <title>Camera da letto</title>
-    <updated>2021-09-27T00:00:00+00:00</updated>
-    <content type="html">&lt;h1 class="SectionHeading staticoso-SectionHeading"&gt;&lt;span class="SectionLink staticoso-SectionLink"&gt;&lt;a href="#-Camera-da-letto"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle staticoso-SectionTitle" id="-Camera-da-letto"&gt;Camera da letto&lt;/span&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;img alt="Camera da letto con luci accese" src="[staticoso:Site:RelativeRoot]Assets/Render/Bedroom-1.png" title="Camera da letto con luci accese"/&gt;
-&lt;img alt="Camera da letto con luci spente" src="[staticoso:Site:RelativeRoot]Assets/Render/Bedroom-2.png" title="Camera da letto con luci spente"/&gt;&lt;/p&gt;
-&lt;p&gt;Una rappresentazione di camera mia fatta a voxel. Uno dei primi progetti in cui ci ho messo veramente tanto impegno.&lt;/p&gt;</content>
     <link href=" " rel="alternate"/>
     <published>2021-09-27T00:00:00+00:00</published>
   </entry>
