@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Nov 2023 11:54:13 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Nov 2023 11:57:50 +0000</lastBuildDate>
     <item>
       <title>Quella volta che brickai la mia scheda madre</title>
       <link> </link>
@@ -100,7 +100,7 @@
       <content:encoded>&lt;h1 class="SectionHeading staticoso-SectionHeading"&gt;&lt;span class="SectionLink staticoso-SectionLink"&gt;&lt;a href="#-Tastiera"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle staticoso-SectionTitle" id="-Tastiera"&gt;Tastiera&lt;/span&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="Tastiera 60% con keycaps bianchi, scocca nera e led rosa. Dietro la tastiera un cubo di Rubik non risolto e davanti la tastiera un keycaps puller. I keycaps sono vuoti. Il cavo della tastiera è a spirale ed è rosa. Il tavolo della scrivania è di legno" src="[staticoso:Site:RelativeRoot]Assets/Render/Keyboard2.png" title="Tastiera 60% con keycaps bianchi, scocca nera e led rosa. Dietro la tastiera un cubo di Rubik non risolto e davanti la tastiera un keycaps puller. I keycaps sono vuoti. Il cavo della tastiera è a spirale ed è rosa. Il tavolo della scrivania è di legno"/&gt;
 &lt;img alt="Tastiera 60% con keycaps bianchi, scocca nera e led rosa. Dietro la tastiera un cubo di Rubik non risolto e davanti la tastiera un keycaps puller. I keycaps sono vuoti. Il cavo della tastiera è a spirale ed è rosa. Il tavolo della scrivania è di legno. La lampadina qua è spenta" src="[staticoso:Site:RelativeRoot]Assets/Render/Keyboard3.png" title="Tastiera 60% con keycaps bianchi, scocca nera e led rosa. Dietro la tastiera un cubo di Rubik non risolto e davanti la tastiera un keycaps puller. I keycaps sono vuoti. Il cavo della tastiera è a spirale ed è rosa. Il tavolo della scrivania è di legno. La lampadina qua è spenta"/&gt;&lt;/p&gt;
-&lt;p&gt;Mi sono recentemente appassionata di tastiere meccaniche e cose simili quindi ho voluto fare un rendere una tastiera.&lt;/p&gt;</content:encoded>
+&lt;p&gt;Mi sono recentemente appassionata di tastiere meccaniche e cose simili quindi ho voluto fare un render di una tastiera.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false"> </guid>
       <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
     </item>
