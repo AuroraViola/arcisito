@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id> </id>
   <title>Arcisito</title>
-  <updated>2023-08-01T13:19:33.281648+00:00</updated>
+  <updated>2023-11-11T01:26:56.078668+00:00</updated>
   <link href=" " rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <subtitle> </subtitle>
@@ -50,6 +50,14 @@
     <content>Era fine marzo di quest’anno e mi ero resa conto che copiare ogni volta la musica nuova da pc a telefono e hard disk esterno non era proprio il massim...</content>
     <link href=" " rel="alternate"/>
     <published>2022-07-01T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id> </id>
+    <title>Tastiera</title>
+    <updated>2023-11-10T00:00:00+00:00</updated>
+    <content>Mi sono recentemente appassionata di tastiere meccaniche e cose simili quindi ho voluto fare un rendere una tastiera....</content>
+    <link href=" " rel="alternate"/>
+    <published>2023-11-10T00:00:00+00:00</published>
   </entry>
   <entry>
     <id> </id>

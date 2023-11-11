@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Aug 2023 13:19:33 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Nov 2023 01:26:56 +0000</lastBuildDate>
     <item>
       <title>Quella volta che brickai la mia scheda madre</title>
       <link> </link>
@@ -94,6 +94,16 @@
       <pubDate>Fri, 01 Jul 2022 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>Tastiera</title>
+      <link> </link>
+      <description>Mi sono recentemente appassionata di tastiere meccaniche e cose simili quindi ho voluto fare un rendere una tastiera....</description>
+      <content:encoded>&lt;h1 class="SectionHeading staticoso-SectionHeading"&gt;&lt;span class="SectionLink staticoso-SectionLink"&gt;&lt;a href="#-Tastiera"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle staticoso-SectionTitle" id="-Tastiera"&gt;Tastiera&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;img alt="Tastiera 60% con keycaps bianchi, scocca nera e led rosa. Dietro la tastiera un cubo di Rubik non risolto e davanti la tastiera un keycaps puller. I keycaps sono vuoti. Il cavo della tastiera è a spirale ed è rosa. Il tavolo della scrivania è di legno" src="[staticoso:Site:RelativeRoot]Assets/Render/Keyboard.png" title="Tastiera 60% con keycaps bianchi, scocca nera e led rosa. Dietro la tastiera un cubo di Rubik non risolto e davanti la tastiera un keycaps puller. I keycaps sono vuoti. Il cavo della tastiera è a spirale ed è rosa. Il tavolo della scrivania è di legno"/&gt;&lt;/p&gt;
+&lt;p&gt;Mi sono recentemente appassionata di tastiere meccaniche e cose simili quindi ho voluto fare un rendere una tastiera.&lt;/p&gt;</content:encoded>
+      <guid isPermaLink="false"> </guid>
+      <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>Undertale "Despite everything, it's still you"</title>
       <link> </link>
       <description>Ho voluto fare questo render perché volevo ricreare ciò in 3D....</description>
@@ -156,16 +166,6 @@
       <content:encoded>&lt;h1 class="SectionHeading staticoso-SectionHeading"&gt;&lt;span class="SectionLink staticoso-SectionLink"&gt;&lt;a href="#-Isola-solitaria"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle staticoso-SectionTitle" id="-Isola-solitaria"&gt;Isola solitaria&lt;/span&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;img alt="Isola gialla in mezzo ad un fiume stile KDE" src="[staticoso:Site:RelativeRoot]Assets/Render/Lonely_Island.png" title="Isola gialla in mezzo ad un fiume stile KDE"/&gt;&lt;/p&gt;
 &lt;p&gt;Prima submission per il &lt;a href="https://forum.kde.org/viewforum.php?f=333"&gt;wallpaper contest di KDE Plasma 5.23&lt;/a&gt;. Anche se alla fine non é stato scelto sono comunque contenta di aver partecipato.&lt;/p&gt;</content:encoded>
-      <guid isPermaLink="false"> </guid>
-      <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Auto low poly</title>
-      <link> </link>
-      <description>Un’auto low poly creata con Blender seguendo questo tutorial....</description>
-      <content:encoded>&lt;h1 class="SectionHeading staticoso-SectionHeading"&gt;&lt;span class="SectionLink staticoso-SectionLink"&gt;&lt;a href="#-Auto-low-poly"&gt;&lt;span&gt;»&lt;/span&gt;&lt;/a&gt; &lt;/span&gt;&lt;span class="SectionTitle staticoso-SectionTitle" id="-Auto-low-poly"&gt;Auto low poly&lt;/span&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;img alt="Automobile arancione low poly" src="[staticoso:Site:RelativeRoot]Assets/Render/lowPolyCar.png" title="Automobile arancione low poly"/&gt;&lt;/p&gt;
-&lt;p&gt;Un’auto low poly creata con Blender seguendo &lt;a href="https://youtu.be/Zkg7Ol2jEjs"&gt;questo&lt;/a&gt; tutorial.&lt;/p&gt;</content:encoded>
       <guid isPermaLink="false"> </guid>
       <pubDate>Mon, 27 Sep 2021 00:00:00 +0000</pubDate>
     </item>
