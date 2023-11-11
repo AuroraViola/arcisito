@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id> </id>
   <title>Arcisito</title>
-  <updated>2023-11-11T01:26:56.078668+00:00</updated>
+  <updated>2023-11-11T11:54:13.121249+00:00</updated>
   <link href=" " rel="alternate"/>
   <generator uri="https://lkiesow.github.io/python-feedgen" version="0.9.0">python-feedgen</generator>
   <subtitle> </subtitle>
@@ -54,8 +54,8 @@
   <entry>
     <id> </id>
     <title>Tastiera</title>
-    <updated>2023-11-10T00:00:00+00:00</updated>
-    <content>Mi sono recentemente appassionata di tastiere meccaniche e cose simili quindi ho voluto fare un rendere una tastiera....</content>
+    <updated>2023-11-11T00:00:00+00:00</updated>
+    <content> ...</content>
     <link href=" " rel="alternate"/>
     <published>2023-11-10T00:00:00+00:00</published>
   </entry>

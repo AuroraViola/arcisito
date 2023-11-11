@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Nov 2023 01:26:56 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 11 Nov 2023 11:54:13 +0000</lastBuildDate>
     <item>
       <title>📓️ Blog</title>
       <link> </link>
@@ -48,7 +48,7 @@
     <item>
       <title>Tastiera</title>
       <link> </link>
-      <description>Mi sono recentemente appassionata di tastiere meccaniche e cose simili quindi ho voluto fare un rendere una tastiera....</description>
+      <description> ...</description>
       <guid isPermaLink="false"> </guid>
       <pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate>
     </item>
