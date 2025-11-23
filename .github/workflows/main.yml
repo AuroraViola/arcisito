@@ -21,7 +21,6 @@ jobs:
         sudo apt install software-properties-common
         sudo add-apt-repository ppa:deadsnakes/ppa
         sudo apt install python3.10 curl git
-        curl -sS https://bootstrap.pypa.io/get-pip.py | sudo python3.10
         sudo pip3 install lxml
         git clone --depth 1 https://gitlab.com/octtspacc/staticoso
 
@@ -29,7 +28,7 @@ jobs:
       run: python3.10 ./staticoso/Source/Build.py
 
     - name: Upload Artifact
-      uses: actions/upload-pages-artifact@v1
+      uses: actions/upload-pages-artifact@v3
       with:
         path: "./public"
   deploy:
@@ -47,4 +46,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
